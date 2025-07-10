@@ -10,9 +10,11 @@ export default function App() {
   const [yProperty, setYProperty] = useState("imdb_score");
 
   useEffect(() => {
-    d3.csv("/walt_disney_movies.csv", (d) => {
+    d3.csv("/walt_disney_movies.csv", (d, i) => {
+      if (!d["Release date"] || d["imdb"] === "N/A" || !d["imdb"]) return null;
       return {
         ...d,
+        id: i,
         release_date: new Date(d["Release date"]),
         imdb_score: +d["imdb"],
         metas_core: +d["metascore"],

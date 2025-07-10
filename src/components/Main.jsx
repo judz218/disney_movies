@@ -1,5 +1,6 @@
 import XAxis from "./chartParts/XAxis";
 import YAxis from "./chartParts/YAxis";
+import ScatterPlot from "./chartParts/ScatterPlot";
 
 export default function Main({ data, xProperty, yProperty }) {
 	const w = 1000;
@@ -9,11 +10,8 @@ export default function Main({ data, xProperty, yProperty }) {
 	const padding = 50;
 
 	const xScale = d3
-		.scaleLinear()
-		.domain([
-			d3.min(data, (d) => d[xProperty]),
-			d3.max(data, (d) => d[xProperty]),
-		])
+		.scaleTime()
+		.domain(d3.extent(data, (d) => d[xProperty]))
 		.range([padding, plotW - padding]);
 
 	const yScale = d3
@@ -27,6 +25,13 @@ export default function Main({ data, xProperty, yProperty }) {
 	return (
 		<svg width={w} height={h}>
 			<g>
+				<ScatterPlot
+					data={data}
+					xProperty={xProperty}
+					yProperty={yProperty}
+					xScale={xScale}
+					yScale={yScale}
+				/>
 				<XAxis xScale={xScale} h={h} padding={padding} />
 				<YAxis yScale={yScale} padding={padding} />
 			</g>
