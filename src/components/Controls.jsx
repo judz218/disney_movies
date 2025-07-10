@@ -1,8 +1,9 @@
 export default function Controls({ yProperty, setYproperty }) {
   const propertyName = ["IMDb"];
+  const propertyVal = ["imdb_score"];
   return (
     <div>
-        yProperty
+      yProperty
       <select
         value={yProperty}
         onChange={(event) => {
@@ -10,7 +11,7 @@ export default function Controls({ yProperty, setYproperty }) {
         }}
       >
         {propertyName.map((p, i) => (
-          <option key={i} value={p}>
+          <option key={i} value={propertyVal[i]}>
             {p}
           </option>
         ))}

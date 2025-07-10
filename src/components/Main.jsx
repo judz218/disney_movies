@@ -1,10 +1,11 @@
 import XAxis from "./chartParts/XAxis";
+import YAxis from "./chartParts/YAxis";
 
 export default function Main({ data, xProperty, yProperty }) {
 	const w = 1000;
 	const h = 600;
 
-	const plotW = 500;
+	const plotW = 800;
 	const padding = 50;
 
 	const xScale = d3
