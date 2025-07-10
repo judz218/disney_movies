@@ -5,7 +5,8 @@ import Controls from "./components/Controls";
 
 export default function App() {
   const [data, setData] = useState(null);
-  
+
+  const [xProperty, setXProperty] = useState("Release date");
   const [yProperty, setYProperty] = useState("");
 
   useEffect(() => {
@@ -22,12 +23,8 @@ export default function App() {
   return (
     <div>
       <Header />
-      <Controls 
-        yProperty={yProperty}
-        setYProperty={setYProperty}
-      />
-      <Main />
-
+      <Controls yProperty={yProperty} setYProperty={setYProperty} />
+      <Main data={data} xProperty={xProperty} yProperty={yProperty} />
     </div>
   );
 }
