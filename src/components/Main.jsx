@@ -6,6 +6,7 @@ import MovieChart from "./chartParts/MovieChart";
 export default function Main() {
 	const [data, setData] = useState(null);
 	console.log(data);
+
 	return (
 		<div>
 			<MovieFetcher setData={setData} />
