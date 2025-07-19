@@ -4,7 +4,7 @@ import { MoviesScore } from './MovieScorer';
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
-export default function MovieFetcher({ onDataLoaded }) {
+export default function MovieFetcher({ setData }) {
     const [movies, setMovies] = useState(null);
 
     useEffect(() => {
@@ -36,11 +36,11 @@ export default function MovieFetcher({ onDataLoaded }) {
                 }
             }
 
-            onDataLoaded(m);
+            setData(m);
             setMovies(m);
         })();
 
-    }, [onDataLoaded]);
+    }, [setData]);
 
-    return !movies ? <p>映画を取得中...</p> : <p>ok</p>;
+    return null;
 }
