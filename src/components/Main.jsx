@@ -5,6 +5,8 @@ import MovieChart from "./chartParts/MovieChart";
 
 export default function Main() {
 	const [data, setData] = useState(null);
+	const [selectedMovie, setSelectedMovie] = useState(null);
+
 	console.log(data);
 
 	return (

@@ -18,7 +18,7 @@ export default function MovieChart({ data }) {
     return (
         <svg width={w} height={h}>
             <Axes xScale={xScale} yScale={yScale} w={w} h={h} padding={padding} />
-            <Nodes data={data} xScale={xScale} yScale={yScale} />
+            <Nodes data={data} xScale={xScale} yScale={yScale} onClick={onMovieClick} />
         </svg>
     )
 }
