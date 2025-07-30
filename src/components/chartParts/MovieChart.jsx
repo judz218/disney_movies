@@ -2,8 +2,8 @@ import Axes from "./Axes";
 import Nodes from "./Nodes";
 
 export default function MovieChart({ data }) {
-    const w = 500;
-    const h = 500;
+    const w = 1500;
+    const h = 1500;
 
     const padding = 50;
 

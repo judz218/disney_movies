@@ -31,7 +31,7 @@ export default function Axes({ xScale, yScale, w, h, padding }) {
                     })}
                 </g>
                 <g>
-                    <text x={padding - 10} y={h / 2 + 5} textAnchor="end" fontSize="12">泣ける</text>
+                    <text x={padding - 10} y={h / 2 + 5} textAnchor="end" fontSize="15">泣ける</text>
                     <text x={w - padding + 10} y={h / 2 + 5} textAnchor="start" fontSize="12">笑える</text>
                 </g>
             </g>

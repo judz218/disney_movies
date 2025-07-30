@@ -1,32 +1,66 @@
-export function MoviesScore(movie, keywords) {
-    const overview = movie.overview.toLowerCase();
-    const genres = movie.genres;
-    const text = overview + " " + keywords.join(" ");
+export function MoviesScore(movie) {
+    // 映画の概要、タグライン、ジャンル、キーワードを取得
+    const overview = movie.overview ? movie.overview.toLowerCase() : "";
+    const tagline = movie.tagline ? movie.tagline.toLowerCase() : "";
+    const genres = movie.genres ? movie.genres.map(genre => genre.name.toLowerCase()) : []; // ジャンル名を小文字で取得
 
-    let x = 0; // ロマンス（-）⇔ ファミリー（+）
+    // TMDBのキーワードは movie.keywords.keywords 配列にあると仮定
+    const tmdbKeywords = movie.keywords && movie.keywords.keywords
+        ? movie.keywords.keywords.map(kw => kw.name.toLowerCase())
+        : [];
+
+    // スコア計算に使用するテキストを結合
+    const text = `${overview} ${tagline} ${tmdbKeywords.join(" ")}`;
+
+    let x = 0; // ロマンス（-）⇔ ファミリー・友情愛（+）
     let y = 0; // 泣ける（-）⇔ 笑える（+）
 
-    // === X軸（ロマンス⇔ファミリー） ===
-    if (genres.includes("romance")) x -= 2;
-    if (text.includes("love") || text.includes("couple") || text.includes("kiss")) x -= 1;
-    if (text.includes("heartwarming") || text.includes("relationship")) x -= 1;
+    // --- X軸（ロマンス ⇔ ファミリー・友情愛） ---
 
-    if (genres.includes("family")) x += 2;
-    if (text.includes("family") || text.includes("parents") || text.includes("siblings") || text.includes("sister") || text.includes("brother")) x += 1;
-    if (text.includes("friendship") || text.includes("bond")) x += 1;
+    // ロマンス関連の重み付け
+    if (genres.includes("romance")) x -= 3;
+    if (text.includes("love story") || text.includes("romantic relationship")) x -= 2.5;
+    if (text.includes("couple") || text.includes("kiss") || text.includes("date") || text.includes("heartbreak")) x -= 1.5;
+    if (text.includes("passion") || text.includes("lover") || text.includes("affair")) x -= 1;
+    if (tmdbKeywords.some(kw => ["romance", "love", "heartbreak"].includes(kw))) x -= 1.5;
 
-    // === Y軸（泣ける⇔笑える） ===
-    if (genres.includes("drama")) y -= 1;
-    if (text.includes("death") || text.includes("loss") || text.includes("grief") || text.includes("sacrifice")) y -= 2;
-    if (text.includes("emotional") || text.includes("touching") || text.includes("heart")) y -= 1;
+    // ファミリー・友情愛関連の重み付け
+    if (genres.includes("family")) x += 3;
+    if (genres.includes("animation")) x += 1; // アニメーションは家族向けが多い傾向
+    if (text.includes("family bond") || text.includes("parent-child") || text.includes("sibling")) x += 2.5;
+    if (text.includes("friendship") || text.includes("best friend") || text.includes("community") || text.includes("together")) x += 2;
+    if (text.includes("teamwork") || text.includes("adventure group")) x += 1;
+    if (tmdbKeywords.some(kw => ["family", "friendship", "siblings", "teamwork"].includes(kw))) x += 1.5;
 
-    if (genres.includes("comedy")) y += 2;
-    if (text.includes("funny") || text.includes("laugh") || text.includes("joke") || text.includes("humor")) y += 1;
-    if (text.includes("silly") || text.includes("hilarious") || text.includes("ridiculous")) y += 1;
 
-    // === 最小スコア保証（中心に密集しすぎないように） ===
-    if (x === 0) x = text.includes("romance") ? -1 : text.includes("family") ? 1 : 0;
-    if (y === 0) y = text.includes("cry") ? -1 : text.includes("funny") ? 1 : 0;
+    // --- Y軸（泣ける ⇔ 笑える） ---
+
+    // 泣ける関連の重み付け
+    if (genres.includes("drama")) y -= 2.5;
+    if (genres.includes("tragedy") || genres.includes("sadness")) y -= 3; // 仮にこれらのジャンルがあるとすれば高い
+    if (text.includes("death") || text.includes("loss") || text.includes("grief") || text.includes("sacrifice") || text.includes("farewell")) y -= 3;
+    if (text.includes("emotional journey") || text.includes("tears") || text.includes("moving story") || text.includes("heartbreaking")) y -= 2;
+    if (text.includes("struggle") || text.includes("pain") || text.includes("suffering")) y -= 1.5;
+    if (tmdbKeywords.some(kw => ["sadness", "death", "grief", "sacrifice", "emotional"].includes(kw))) y -= 1.5;
+
+
+    // 笑える関連の重み付け
+    if (genres.includes("comedy")) y += 3;
+    if (genres.includes("humor") || genres.includes("laugh")) y += 3; // 仮にこれらのジャンルがあるとすれば高い
+    if (text.includes("funny moments") || text.includes("hilarious situations") || text.includes("laughter") || text.includes("joke")) y += 3;
+    if (text.includes("silly") || text.includes("ridiculous") || text.includes("witty") || text.includes("slapstick")) y += 2;
+    if (text.includes("humor") || text.includes("amusing") || text.includes("giggles")) y += 1.5;
+    if (tmdbKeywords.some(kw => ["comedy", "funny", "humor", "laughter"].includes(kw))) y += 1.5;
+
+    // スコアが0になりすぎないように微調整（オプション）
+    // この部分は、映画の特性をより反映するように調整できます。
+    // 例えば、全く関連するキーワードがない場合に、中央に集まりすぎないようにする。
+    if (Math.abs(x) < 0.5 && !text.includes("love") && !text.includes("family") && !text.includes("friendship")) {
+        x = (Math.random() - 0.5) * 0.5; // 小さなランダム値を加える
+    }
+    if (Math.abs(y) < 0.5 && !text.includes("cry") && !text.includes("laugh") && !text.includes("funny")) {
+        y = (Math.random() - 0.5) * 0.5; // 小さなランダム値を加える
+    }
 
     return { x, y };
 }
