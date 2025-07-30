@@ -1,9 +1,9 @@
 import Axes from "./Axes";
 import Nodes from "./Nodes";
 
-export default function MovieChart({ data }) {
-    const w = 1500;
-    const h = 1500;
+export default function MovieChart({ data, onMovieClick }) {
+    const w = 800;
+    const h = 800;
 
     const padding = 50;
 
