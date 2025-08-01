@@ -1,0 +1,4808 @@
+[
+  {
+    "title": "Ice Age: A Mammoth Christmas",
+    "release_year": "2011",
+    "id": 79218,
+    "popularity": 1.767,
+    "companies": [
+      "20th Century Fox Animation",
+      "Blue Sky Studios",
+      "Reel FX Creative Studios"
+    ]
+  },
+  {
+    "title": "Becoming Cousteau",
+    "release_year": "2021",
+    "id": 774823,
+    "popularity": 1.2897,
+    "companies": [
+      "National Geographic",
+      "The Cousteau Society",
+      "Story Syndicate",
+      "Ace Content",
+      "Diamond Docs",
+      "National Geographic Documentary Films"
+    ]
+  },
+  {
+    "title": "Ciao Alberto",
+    "release_year": "2021",
+    "id": 876716,
+    "popularity": 2.5093,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Enchanted",
+    "release_year": "2007",
+    "id": 4523,
+    "popularity": 4.8908,
+    "companies": [
+      "Walt Disney Pictures",
+      "Josephson Entertainment",
+      "Andalasia Productions",
+      "Right Coast"
+    ]
+  },
+  {
+    "title": "Frozen Fever",
+    "release_year": "2015",
+    "id": 326359,
+    "popularity": 2.0976,
+    "companies": [
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Home Sweet Home Alone",
+    "release_year": "2021",
+    "id": 654974,
+    "popularity": 2.4396,
+    "companies": [
+      "20th Century Studios",
+      "Hutch Parker Entertainment"
+    ]
+  },
+  {
+    "title": "Jungle Cruise",
+    "release_year": "2021",
+    "id": 451048,
+    "popularity": 5.6399,
+    "companies": [
+      "Walt Disney Pictures",
+      "Seven Bucks Productions",
+      "Davis Entertainment",
+      "Flynn Picture Company"
+    ]
+  },
+  {
+    "title": "Shang-Chi and The Legend of The Ten Rings",
+    "release_year": "2021",
+    "id": 566525,
+    "popularity": 11.7986,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Tangled Ever After",
+    "release_year": "2012",
+    "id": 82881,
+    "popularity": 3.184,
+    "companies": [
+      "Walt Disney Animation Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Simpsons in Plusaversary",
+    "release_year": "2021",
+    "id": 877183,
+    "popularity": 1.5811,
+    "companies": [
+      "Gracie Films",
+      "20th Television Animation"
+    ]
+  },
+  {
+    "title": "Alvin and the Chipmunks: Chipwrecked",
+    "release_year": "2011",
+    "id": 55301,
+    "popularity": 10.4886,
+    "companies": [
+      "Fox 2000 Pictures",
+      "20th Century Fox",
+      "Regency Enterprises",
+      "Dune Entertainment",
+      "Bagdasarian Productions"
+    ]
+  },
+  {
+    "title": "Jingle All The Way",
+    "release_year": "1996",
+    "id": 9279,
+    "popularity": 2.9666,
+    "companies": [
+      "1492 Pictures",
+      "20th Century Fox",
+      "Fox Family Films"
+    ]
+  },
+  {
+    "title": "Prep & Landing: Operation Secret Santa",
+    "release_year": "2010",
+    "id": 88212,
+    "popularity": 1.2608,
+    "companies": [
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Santa Buddies: The Legend of Santa Paws",
+    "release_year": "2009",
+    "id": 24833,
+    "popularity": 1.0295,
+    "companies": [
+      "Key Pix Productions",
+      "Keystone Entertainment",
+      "Santa Buddies Productions",
+      "Walt Disney Studios Home Entertainment"
+    ]
+  },
+  {
+    "title": "Snow Buddies",
+    "release_year": "2008",
+    "id": 14059,
+    "popularity": 1.2797,
+    "companies": [
+      "Keystone Entertainment",
+      "Key Pix Productions"
+    ]
+  },
+  {
+    "title": "Space Buddies",
+    "release_year": "2009",
+    "id": 14749,
+    "popularity": 1.6778,
+    "companies": [
+      "Key Pix Productions",
+      "Keystone Entertainment"
+    ]
+  },
+  {
+    "title": "The Search for Santa Paws",
+    "release_year": "2010",
+    "id": 48844,
+    "popularity": 1.0536,
+    "companies": [
+      "Key Pix Productions",
+      "Keystone Entertainment",
+      "Santa Paws Productions",
+      "Walt Disney Studios Home Entertainment"
+    ]
+  },
+  {
+    "title": "McFarland, USA",
+    "release_year": "2015",
+    "id": 228203,
+    "popularity": 3.1415,
+    "companies": [
+      "Mayhem Pictures",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Rookie of the Year",
+    "release_year": "1993",
+    "id": 21845,
+    "popularity": 1.3409,
+    "companies": [
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Thumbelina",
+    "release_year": "1994",
+    "id": 28032,
+    "popularity": 1.9015,
+    "companies": [
+      "Don Bluth Entertainment",
+      "Don Bluth Ireland"
+    ]
+  },
+  {
+    "title": "Muppets Haunted Mansion",
+    "release_year": "2021",
+    "id": 826914,
+    "popularity": 1.0165,
+    "companies": [
+      "Soapbox Films",
+      "The Muppets Studio"
+    ]
+  },
+  {
+    "title": "Under Wraps",
+    "release_year": "2021",
+    "id": 763873,
+    "popularity": 1.7662,
+    "companies": [
+      "MarVista Entertainment",
+      "Lighthouse Pictures",
+      "Disney Branded Television"
+    ]
+  },
+  {
+    "title": "Black Widow",
+    "release_year": "2021",
+    "id": 497698,
+    "popularity": 12.513,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Alvin and the Chipmunks",
+    "release_year": "2007",
+    "id": 6477,
+    "popularity": 5.7968,
+    "companies": [
+      "Fox 2000 Pictures",
+      "Regency Enterprises",
+      "Bagdasarian Productions",
+      "Dune Entertainment",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Alvin and the Chipmunks: The Road Chip",
+    "release_year": "2015",
+    "id": 258509,
+    "popularity": 5.2998,
+    "companies": [
+      "TSG Entertainment",
+      "Fox 2000 Pictures",
+      "Regency Enterprises",
+      "Bagdasarian Productions",
+      "Sunswept Entertainment"
+    ]
+  },
+  {
+    "title": "LEGO Star Wars Terrifying Tales",
+    "release_year": "2021",
+    "id": 857702,
+    "popularity": 1.6908,
+    "companies": [
+      "Lucasfilm Ltd.",
+      "Atomic Cartoons",
+      "LEGO"
+    ]
+  },
+  {
+    "title": "Maleficent",
+    "release_year": "2014",
+    "id": 102651,
+    "popularity": 12.6101,
+    "companies": [
+      "Walt Disney Pictures",
+      "Roth Films"
+    ]
+  },
+  {
+    "title": "Spooky Buddies",
+    "release_year": "2011",
+    "id": 70587,
+    "popularity": 1.0377,
+    "companies": [
+      "Key Pix Productions",
+      "Spooky Buddies Productions",
+      "Walt Disney Studios Home Entertainment"
+    ]
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "release_year": "2014",
+    "id": 222935,
+    "popularity": 6.8564,
+    "companies": [
+      "TSG Entertainment",
+      "Fox 2000 Pictures",
+      "Temple Hill Entertainment"
+    ]
+  },
+  {
+    "title": "Confessions of a Shopaholic",
+    "release_year": "2009",
+    "id": 20048,
+    "popularity": 4.0652,
+    "companies": [
+      "Touchstone Pictures",
+      "Jerry Bruckheimer Films"
+    ]
+  },
+  {
+    "title": "Descendants: Royal Wedding",
+    "release_year": "2021",
+    "id": 805411,
+    "popularity": 1.5372,
+    "companies": [
+      "Disney Channel",
+      "Final Frontier Entertainment"
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "release_year": "2011",
+    "id": 1865,
+    "popularity": 14.6551,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Moving Picture Company"
+    ]
+  },
+  {
+    "title": "X-Men: Dark Phoenix",
+    "release_year": "2019",
+    "id": 320288,
+    "popularity": 6.3012,
+    "companies": [
+      "Genre Films",
+      "Hutch Parker Entertainment",
+      "20th Century Fox",
+      "TSG Entertainment",
+      "Marvel Entertainment"
+    ]
+  },
+  {
+    "title": "Cruella",
+    "release_year": "2021",
+    "id": 337404,
+    "popularity": 10.4194,
+    "companies": [
+      "Walt Disney Pictures",
+      "Gunn Films",
+      "Marc Platt Productions"
+    ]
+  },
+  {
+    "title": "Dan in Real Life",
+    "release_year": "2007",
+    "id": 7211,
+    "popularity": 1.7873,
+    "companies": [
+      "Touchstone Pictures",
+      "Focus Features",
+      "Jon Shestack Productions"
+    ]
+  },
+  {
+    "title": "Marvel One-Shot: All Hail the King",
+    "release_year": "2014",
+    "id": 253980,
+    "popularity": 1.0846,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Underdog",
+    "release_year": "2007",
+    "id": 6589,
+    "popularity": 2.3389,
+    "companies": [
+      "Walt Disney Pictures",
+      "Classic Media",
+      "Have No Fear Productions",
+      "Spyglass Entertainment",
+      "Maverick Films"
+    ]
+  },
+  {
+    "title": "Eragon",
+    "release_year": "2006",
+    "id": 2486,
+    "popularity": 2.8523,
+    "companies": [
+      "Fox 2000 Pictures",
+      "Davis Entertainment",
+      "Dune Entertainment",
+      "Major Studio Partners",
+      "Mid Atlantic Films",
+      "20th Century Fox",
+      "Ingenious Media"
+    ]
+  },
+  {
+    "title": "Fantastic Four",
+    "release_year": "2005",
+    "id": 9738,
+    "popularity": 48.8848,
+    "companies": [
+      "Kumar Mobiliengesellschaft mbH & Co. Projekt Nr. 3 KG",
+      "1492 Pictures",
+      "Marvel Enterprises",
+      "20th Century Fox",
+      "Bernd Eichinger Productions",
+      "Constantin Film"
+    ]
+  },
+  {
+    "title": "Beverly Hills Chihuahua 2",
+    "release_year": "2011",
+    "id": 54540,
+    "popularity": 1.8187,
+    "companies": [
+      "Walt Disney Home Video"
+    ]
+  },
+  {
+    "title": "Beverly Hills Chihuahua 3: Viva La Fiesta!",
+    "release_year": "2012",
+    "id": 105965,
+    "popularity": 2.0368,
+    "companies": [
+      "Walt Disney Home Video"
+    ]
+  },
+  {
+    "title": "Mrs. Doubtfire",
+    "release_year": "1993",
+    "id": 788,
+    "popularity": 5.4986,
+    "companies": [
+      "20th Century Fox",
+      "Blue Wolf Productions"
+    ]
+  },
+  {
+    "title": "Garfield",
+    "release_year": "2004",
+    "id": 8920,
+    "popularity": 6.9062,
+    "companies": [
+      "Davis Entertainment",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Ice Age: The Meltdown",
+    "release_year": "2006",
+    "id": 950,
+    "popularity": 6.8697,
+    "companies": [
+      "20th Century Fox Animation",
+      "Blue Sky Studios",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Walking with Dinosaurs: The Movie",
+    "release_year": "2013",
+    "id": 77951,
+    "popularity": 2.1151,
+    "companies": [
+      "Animal Logic",
+      "Evergreen Films",
+      "Reliance Entertainment",
+      "IM Global",
+      "BBC Earth",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "We Bought a Zoo",
+    "release_year": "2011",
+    "id": 74465,
+    "popularity": 4.71,
+    "companies": [
+      "Dune Entertainment",
+      "Estrella Media",
+      "Vinyl Films",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Miraculous World: Shanghai, The Legend of Ladydragon",
+    "release_year": "2021",
+    "id": 726684,
+    "popularity": 3.4906,
+    "companies": [
+      "ZAG Entertainment",
+      "Method Animation",
+      "SAMG Entertainment",
+      "TF1",
+      "Gloob",
+      "Télé-Québec",
+      "Norman Studio",
+      "Gravity Animation",
+      "The Walt Disney Company EMEA"
+    ]
+  },
+  {
+    "title": "The Good, The Bart, and The Loki",
+    "release_year": "2021",
+    "id": 846214,
+    "popularity": 1.4735,
+    "companies": [
+      "Gracie Films",
+      "20th Television"
+    ]
+  },
+  {
+    "title": "The Sandlot",
+    "release_year": "1993",
+    "id": 11528,
+    "popularity": 3.4253,
+    "companies": [
+      "Island World",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "The Sandlot 2",
+    "release_year": "2005",
+    "id": 18500,
+    "popularity": 1.4009,
+    "companies": [
+      "David Evans Pictures",
+      "20th Century Fox Home Entertainment"
+    ]
+  },
+  {
+    "title": "Adventures in Babysitting",
+    "release_year": "1987",
+    "id": 14367,
+    "popularity": 1.8087,
+    "companies": [
+      "Silver Screen Partners III",
+      "Touchstone Pictures"
+    ]
+  },
+  {
+    "title": "Luca",
+    "release_year": "2021",
+    "id": 508943,
+    "popularity": 10.054,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Strange Magic",
+    "release_year": "2015",
+    "id": 302429,
+    "popularity": 3.1711,
+    "companies": [
+      "Touchstone Pictures",
+      "Lucasfilm Ltd.",
+      "Lucasfilm Animation"
+    ]
+  },
+  {
+    "title": "The Pacifier",
+    "release_year": "2005",
+    "id": 10022,
+    "popularity": 3.7786,
+    "companies": [
+      "Walt Disney Pictures",
+      "Spyglass Entertainment"
+    ]
+  },
+  {
+    "title": "Raya and the Last Dragon",
+    "release_year": "2021",
+    "id": 527774,
+    "popularity": 8.1928,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Red Tails",
+    "release_year": "2012",
+    "id": 72431,
+    "popularity": 1.7564,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Us Again",
+    "release_year": "2021",
+    "id": 779047,
+    "popularity": 1.36,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Tinker Bell and the Legend of the NeverBeast",
+    "release_year": "2014",
+    "id": 297270,
+    "popularity": 5.1448,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Fantastic Four: Rise of the Silver Surfer",
+    "release_year": "2007",
+    "id": 1979,
+    "popularity": 40.7319,
+    "companies": [
+      "1492 Pictures",
+      "Bernd Eichinger Productions",
+      "20th Century Fox",
+      "Constantin Film",
+      "Marvel Studios",
+      "Ingenious Film Partners"
+    ]
+  },
+  {
+    "title": "22 vs. Earth",
+    "release_year": "2021",
+    "id": 811367,
+    "popularity": 1.8167,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Oklahoma!",
+    "release_year": "1956",
+    "id": 13936,
+    "popularity": 1.3485,
+    "companies": [
+      "RKO Radio Pictures",
+      "Magna Corporation"
+    ]
+  },
+  {
+    "title": "Baby's Day Out",
+    "release_year": "1994",
+    "id": 11212,
+    "popularity": 5.7429,
+    "companies": [
+      "20th Century Fox",
+      "Hughes Entertainment"
+    ]
+  },
+  {
+    "title": "Rio",
+    "release_year": "2011",
+    "id": 46195,
+    "popularity": 7.7252,
+    "companies": [
+      "Blue Sky Studios",
+      "20th Century Fox Animation",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "The Kid Who Would Be King",
+    "release_year": "2019",
+    "id": 454294,
+    "popularity": 1.9974,
+    "companies": [
+      "Working Title Films",
+      "Big Talk Studios",
+      "TSG Entertainment",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "White Fang 2: Myth of the White Wolf",
+    "release_year": "1994",
+    "id": 43643,
+    "popularity": 1.1806,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Caravan of Courage: An Ewok Adventure",
+    "release_year": "1984",
+    "id": 1884,
+    "popularity": 1.2318,
+    "companies": [
+      "Lucasfilm Ltd.",
+      "Korty Films"
+    ]
+  },
+  {
+    "title": "Ewoks: The Battle for Endor",
+    "release_year": "1985",
+    "id": 10372,
+    "popularity": 1.7363,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Night at the Museum",
+    "release_year": "2006",
+    "id": 1593,
+    "popularity": 7.1583,
+    "companies": [
+      "1492 Pictures",
+      "21 Laps Entertainment",
+      "20th Century Fox",
+      "Ingenious Media",
+      "Sun Canada Productions"
+    ]
+  },
+  {
+    "title": "Gnomeo & Juliet",
+    "release_year": "2011",
+    "id": 45772,
+    "popularity": 3.4233,
+    "companies": [
+      "Touchstone Pictures",
+      "Starz Animation",
+      "Rocket Pictures",
+      "Miramax",
+      "Mandate International"
+    ]
+  },
+  {
+    "title": "Miss Peregrine's Home for Peculiar Children",
+    "release_year": "2016",
+    "id": 283366,
+    "popularity": 10.1675,
+    "companies": [
+      "Chernin Entertainment",
+      "Tim Burton Productions",
+      "TSG Entertainment",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Garfield: A Tail of Two Kitties",
+    "release_year": "2006",
+    "id": 9513,
+    "popularity": 2.9586,
+    "companies": [
+      "20th Century Fox",
+      "Davis Entertainment",
+      "Dune Entertainment",
+      "Major Studio Partners",
+      "Ingenious Media",
+      "Ingenious Film Partners"
+    ]
+  },
+  {
+    "title": "Cheaper By the Dozen",
+    "release_year": "2003",
+    "id": 11007,
+    "popularity": 4.0276,
+    "companies": [
+      "20th Century Fox",
+      "Robert Simonds Productions"
+    ]
+  },
+  {
+    "title": "Cheaper by the Dozen 2",
+    "release_year": "2005",
+    "id": 9641,
+    "popularity": 3.3778,
+    "companies": [
+      "20th Century Fox",
+      "21 Laps Entertainment"
+    ]
+  },
+  {
+    "title": "Flora & Ulysses",
+    "release_year": "2021",
+    "id": 621876,
+    "popularity": 1.1573,
+    "companies": [
+      "Walt Disney Pictures",
+      "Netter Productions"
+    ]
+  },
+  {
+    "title": "The Book of Life",
+    "release_year": "2014",
+    "id": 228326,
+    "popularity": 4.9761,
+    "companies": [
+      "Reel FX Creative Studios",
+      "20th Century Fox Animation",
+      "Chatrone"
+    ]
+  },
+  {
+    "title": "You Again",
+    "release_year": "2010",
+    "id": 38303,
+    "popularity": 1.4529,
+    "companies": [
+      "Oops Doughnuts Productions",
+      "Touchstone Pictures",
+      "Frontier Pictures"
+    ]
+  },
+  {
+    "title": "Upside-Down Magic",
+    "release_year": "2020",
+    "id": 671583,
+    "popularity": 2.4578,
+    "companies": [
+      "Resonate Entertainment",
+      "Disney Channels Worldwide"
+    ]
+  },
+  {
+    "title": "Isle of Dogs",
+    "release_year": "2018",
+    "id": 399174,
+    "popularity": 6.3674,
+    "companies": [
+      "Studio Babelsberg",
+      "American Empirical Pictures",
+      "Indian Paintbrush",
+      "Scott Rudin Productions"
+    ]
+  },
+  {
+    "title": "Mary Poppins Returns",
+    "release_year": "2018",
+    "id": 400650,
+    "popularity": 2.5997,
+    "companies": [
+      "Walt Disney Pictures",
+      "Marc Platt Productions",
+      "Lucamar Productions"
+    ]
+  },
+  {
+    "title": "Ferdinand",
+    "release_year": "2017",
+    "id": 364689,
+    "popularity": 7.8611,
+    "companies": [
+      "Blue Sky Studios",
+      "20th Century Fox Animation",
+      "Davis Entertainment",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Toy Story: That Time Forgot",
+    "release_year": "2014",
+    "id": 256835,
+    "popularity": 2.2112,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Dr. Seuss' Horton Hears a Who!",
+    "release_year": "2008",
+    "id": 12222,
+    "popularity": 4.1415,
+    "companies": [
+      "Blue Sky Studios",
+      "20th Century Fox Animation",
+      "Dr. Seuss Enterprises",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Soul",
+    "release_year": "2020",
+    "id": 508442,
+    "popularity": 8.7006,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Dory's Reef Cam",
+    "release_year": "2020",
+    "id": 777350,
+    "popularity": 1.3422,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Into the Woods",
+    "release_year": "2014",
+    "id": 224141,
+    "popularity": 2.2642,
+    "companies": [
+      "Walt Disney Pictures",
+      "Marc Platt Productions",
+      "Lucamar Productions"
+    ]
+  },
+  {
+    "title": "Miraculous World: New York, United Heroez",
+    "release_year": "2020",
+    "id": 755812,
+    "popularity": 3.8588,
+    "companies": [
+      "ZAG Entertainment",
+      "Method Animation",
+      "SAMG Entertainment",
+      "TF1",
+      "Gloob",
+      "Norman Studio",
+      "Télé-Québec",
+      "The Walt Disney Company EMEA",
+      "Morena Films",
+      "Toei Animation"
+    ]
+  },
+  {
+    "title": "Ralph Breaks the Internet",
+    "release_year": "2018",
+    "id": 404368,
+    "popularity": 5.7621,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Anastasia",
+    "release_year": "1997",
+    "id": 9444,
+    "popularity": 4.9391,
+    "companies": [
+      "Fox Animation Studios",
+      "The Big Gun Project",
+      "20th Century Fox",
+      "Fox Family Films"
+    ]
+  },
+  {
+    "title": "Godmothered",
+    "release_year": "2020",
+    "id": 662546,
+    "popularity": 1.2443,
+    "companies": [
+      "Walt Disney Pictures",
+      "The Montecito Picture Company",
+      "Studio AKA"
+    ]
+  },
+  {
+    "title": "Mulan",
+    "release_year": "2020",
+    "id": 337401,
+    "popularity": 7.9487,
+    "companies": [
+      "Walt Disney Pictures",
+      "Good Fear",
+      "Jason T. Reed Productions"
+    ]
+  },
+  {
+    "title": "Sky High",
+    "release_year": "2005",
+    "id": 11459,
+    "popularity": 4.9064,
+    "companies": [
+      "Max Stronghold Productions Inc.",
+      "Walt Disney Pictures",
+      "Gunn Films"
+    ]
+  },
+  {
+    "title": "The Nutcracker and the Four Realms",
+    "release_year": "2018",
+    "id": 426543,
+    "popularity": 2.9198,
+    "companies": [
+      "Walt Disney Pictures",
+      "The Mark Gordon Company"
+    ]
+  },
+  {
+    "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+    "release_year": "2014",
+    "id": 218778,
+    "popularity": 1.9658,
+    "companies": [
+      "Walt Disney Pictures",
+      "21 Laps Entertainment",
+      "The Jim Henson Company"
+    ]
+  },
+  {
+    "title": "Planes",
+    "release_year": "2013",
+    "id": 151960,
+    "popularity": 2.8548,
+    "companies": [
+      "Walt Disney Pictures",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Planes: Fire & Rescue",
+    "release_year": "2014",
+    "id": 218836,
+    "popularity": 2.9764,
+    "companies": [
+      "Disney Television Animation",
+      "Prana Animation Studios",
+      "DisneyToon Studios",
+      "Walt Disney Pictures",
+      "Prana Studios"
+    ]
+  },
+  {
+    "title": "Home Alone 2: Lost in New York",
+    "release_year": "1992",
+    "id": 772,
+    "popularity": 8.9994,
+    "companies": [
+      "20th Century Fox",
+      "Hughes Entertainment"
+    ]
+  },
+  {
+    "title": "Home Alone 3",
+    "release_year": "1997",
+    "id": 9714,
+    "popularity": 4.6998,
+    "companies": [
+      "20th Century Fox",
+      "Hughes Entertainment"
+    ]
+  },
+  {
+    "title": "Prep & Landing: Naughty vs. Nice",
+    "release_year": "2011",
+    "id": 88096,
+    "popularity": 1.0695,
+    "companies": [
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "The Sorcerer's Apprentice",
+    "release_year": "2010",
+    "id": 27022,
+    "popularity": 3.9417,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Saturn Films",
+      "Broken Road Productions",
+      "Junction Entertainment"
+    ]
+  },
+  {
+    "title": "Once Upon a Snowman",
+    "release_year": "2020",
+    "id": 741074,
+    "popularity": 1.4986,
+    "companies": [
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Beverly Hills Chihuahua",
+    "release_year": "2008",
+    "id": 14405,
+    "popularity": 2.8002,
+    "companies": [
+      "Walt Disney Pictures",
+      "Smart Entertainment",
+      "Mandeville Films"
+    ]
+  },
+  {
+    "title": "Clouds",
+    "release_year": "2020",
+    "id": 630566,
+    "popularity": 1.5791,
+    "companies": [
+      "Mad Chance",
+      "La Scala Films",
+      "Wayfarer Studios"
+    ]
+  },
+  {
+    "title": "The Chronicles Of Narnia: The Voyage of the Dawn Treader",
+    "release_year": "2010",
+    "id": 10140,
+    "popularity": 6.5095,
+    "companies": [
+      "Fox 2000 Pictures",
+      "Walden Media",
+      "C.S. Lewis Company"
+    ]
+  },
+  {
+    "title": "Mr. Holland's Opus",
+    "release_year": "1996",
+    "id": 2054,
+    "popularity": 1.7103,
+    "companies": [
+      "Hollywood Pictures",
+      "Interscope Communications",
+      "PolyGram Filmed Entertainment",
+      "The Charlie Mopic Company"
+    ]
+  },
+  {
+    "title": "Disneynature Oceans",
+    "release_year": "2010",
+    "id": 36970,
+    "popularity": 1.0622,
+    "companies": [
+      "Galatée Films",
+      "Pathé",
+      "France 2 Cinéma",
+      "France 3 Cinéma",
+      "Notro Films",
+      "JMH & FILO Films",
+      "TSR",
+      "Participant"
+    ]
+  },
+  {
+    "title": "Hidden Figures",
+    "release_year": "2016",
+    "id": 381284,
+    "popularity": 8.5714,
+    "companies": [
+      "Fox 2000 Pictures",
+      "Levantine Films",
+      "Chernin Entertainment"
+    ]
+  },
+  {
+    "title": "Secret Society of Second-Born Royals",
+    "release_year": "2020",
+    "id": 621870,
+    "popularity": 2.2129,
+    "companies": [
+      "GulfStream Pictures",
+      "Maple Plus Productions",
+      "Disney Channels Worldwide"
+    ]
+  },
+  {
+    "title": "Ever After: A Cinderella Story",
+    "release_year": "1998",
+    "id": 9454,
+    "popularity": 2.7081,
+    "companies": [
+      "20th Century Fox",
+      "Mireille Soria Productions",
+      "Fox Family Films"
+    ]
+  },
+  {
+    "title": "Christopher Robin",
+    "release_year": "2018",
+    "id": 420814,
+    "popularity": 2.8872,
+    "companies": [
+      "Walt Disney Pictures",
+      "2DUX²"
+    ]
+  },
+  {
+    "title": "D2: The Mighty Ducks",
+    "release_year": "1994",
+    "id": 11164,
+    "popularity": 1.646,
+    "companies": [
+      "Avnet/Kerner Productions",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "D3: The Mighty Ducks",
+    "release_year": "1996",
+    "id": 10680,
+    "popularity": 1.2689,
+    "companies": [
+      "Avnet/Kerner Productions",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Alice Through the Looking Glass",
+    "release_year": "2016",
+    "id": 241259,
+    "popularity": 6.13,
+    "companies": [
+      "Legend3D",
+      "Walt Disney Pictures",
+      "Roth Films",
+      "Team Todd",
+      "Tim Burton Productions"
+    ]
+  },
+  {
+    "title": "Phineas and Ferb The Movie: Candace Against the Universe",
+    "release_year": "2020",
+    "id": 594328,
+    "popularity": 2.1718,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Beauty and the Beast",
+    "release_year": "2017",
+    "id": 321612,
+    "popularity": 10.3748,
+    "companies": [
+      "Walt Disney Pictures",
+      "Mandeville Films"
+    ]
+  },
+  {
+    "title": "The One and Only Ivan",
+    "release_year": "2020",
+    "id": 508570,
+    "popularity": 3.0147,
+    "companies": [
+      "Allison Shearmur Productions",
+      "Digital Makeup Group",
+      "Jolie Pas Productions",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Disney Zombies 2",
+    "release_year": "2020",
+    "id": 599521,
+    "popularity": 5.5059,
+    "companies": [
+      "Bloor Street Productions",
+      "Disney Channels Worldwide"
+    ]
+  },
+  {
+    "title": "Magic Camp",
+    "release_year": "2020",
+    "id": 454433,
+    "popularity": 1.1576,
+    "companies": [
+      "Team Todd",
+      "Gunn Films",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Ant-Man and the Wasp",
+    "release_year": "2018",
+    "id": 363088,
+    "popularity": 6.7792,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "The Greatest Showman",
+    "release_year": "2017",
+    "id": 316029,
+    "popularity": 6.1703,
+    "companies": [
+      "Chernin Entertainment",
+      "20th Century Fox",
+      "TSG Entertainment"
+    ]
+  },
+  {
+    "title": "Howard",
+    "release_year": "2020",
+    "id": 512191,
+    "popularity": 1.4346,
+    "companies": [
+      "Stone Circle Pictures"
+    ]
+  },
+  {
+    "title": "Prince of Persia: The Sands of Time",
+    "release_year": "2010",
+    "id": 9543,
+    "popularity": 5.0609,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films"
+    ]
+  },
+  {
+    "title": "The Peanuts Movie",
+    "release_year": "2015",
+    "id": 227973,
+    "popularity": 3.6459,
+    "companies": [
+      "Blue Sky Studios",
+      "20th Century Fox Animation",
+      "20th Century Fox",
+      "Feigco Entertainment"
+    ]
+  },
+  {
+    "title": "Incredibles 2",
+    "release_year": "2018",
+    "id": 260513,
+    "popularity": 9.8167,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "release_year": "2017",
+    "id": 166426,
+    "popularity": 10.955,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Infinitum Nihil"
+    ]
+  },
+  {
+    "title": "Diary of a Wimpy Kid: The Long Haul",
+    "release_year": "2017",
+    "id": 417830,
+    "popularity": 2.6558,
+    "companies": [
+      "20th Century Fox",
+      "TSG Entertainment",
+      "Color Force"
+    ]
+  },
+  {
+    "title": "X-Men: Apocalypse",
+    "release_year": "2016",
+    "id": 246655,
+    "popularity": 8.7345,
+    "companies": [
+      "The Donners' Company",
+      "Bad Hat Harry Productions",
+      "Genre Films",
+      "Hutch Parker Entertainment",
+      "20th Century Fox",
+      "Marvel Entertainment",
+      "TSG Entertainment"
+    ]
+  },
+  {
+    "title": "Solo: A Star Wars Story",
+    "release_year": "2018",
+    "id": 348350,
+    "popularity": 5.4055,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "X-Men: Days of Future Past",
+    "release_year": "2014",
+    "id": 127585,
+    "popularity": 11.7953,
+    "companies": [
+      "Bad Hat Harry Productions",
+      "The Donners' Company",
+      "20th Century Fox",
+      "Marvel Entertainment",
+      "TSG Entertainment",
+      "Genre Films"
+    ]
+  },
+  {
+    "title": "Diary of a Wimpy Kid: Rodrick Rules",
+    "release_year": "2011",
+    "id": 60307,
+    "popularity": 4.4857,
+    "companies": [
+      "Color Force",
+      "Dune Entertainment",
+      "Fox 2000 Pictures"
+    ]
+  },
+  {
+    "title": "Hamilton",
+    "release_year": "2020",
+    "id": 556574,
+    "popularity": 3.3353,
+    "companies": [
+      "RadicalMedia",
+      "5000 Broadway Productions",
+      "Nevis Productions",
+      "Old 320 Sycamore"
+    ]
+  },
+  {
+    "title": "Ice Age: Collision Course",
+    "release_year": "2016",
+    "id": 278154,
+    "popularity": 7.7802,
+    "companies": [
+      "Blue Sky Studios",
+      "20th Century Fox Animation",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Race to Witch Mountain",
+    "release_year": "2009",
+    "id": 13836,
+    "popularity": 3.9001,
+    "companies": [
+      "Walt Disney Pictures",
+      "Gunn Films"
+    ]
+  },
+  {
+    "title": "The Big Green",
+    "release_year": "1995",
+    "id": 26441,
+    "popularity": 1.0227,
+    "companies": [
+      "Caravan Pictures",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Mighty Ducks",
+    "release_year": "1992",
+    "id": 10414,
+    "popularity": 1.3303,
+    "companies": [
+      "Avnet/Kerner Productions",
+      "Touchwood Pacific Partners 1",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "While You Were Sleeping",
+    "release_year": "1995",
+    "id": 2064,
+    "popularity": 4.0271,
+    "companies": [
+      "Caravan Pictures",
+      "Hollywood Pictures"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Avengers: Infinity War",
+    "release_year": "2018",
+    "id": 299536,
+    "popularity": 29.2339,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Tarzan",
+    "release_year": "1999",
+    "id": 37135,
+    "popularity": 8.4239,
+    "companies": [
+      "Walt Disney Pictures",
+      "Edgar Rice Burroughs Inc.",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Tarzan II",
+    "release_year": "2005",
+    "id": 15657,
+    "popularity": 2.7022,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "The Jungle Book",
+    "release_year": "2016",
+    "id": 278927,
+    "popularity": 7.7335,
+    "companies": [
+      "Walt Disney Pictures",
+      "Fairview Entertainment",
+      "Moving Picture Company"
+    ]
+  },
+  {
+    "title": "The Pirate Fairy",
+    "release_year": "2014",
+    "id": 175112,
+    "popularity": 4.9724,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Artemis Fowl",
+    "release_year": "2020",
+    "id": 475430,
+    "popularity": 2.5958,
+    "companies": [
+      "Tribeca Productions",
+      "Walt Disney Pictures",
+      "TKBC"
+    ]
+  },
+  {
+    "title": "Percy Jackson & The Olympians: The Lightning Thief",
+    "release_year": "2010",
+    "id": 32657,
+    "popularity": 7.3449,
+    "companies": [
+      "1492 Pictures",
+      "Sunswept Entertainment",
+      "Dune Entertainment"
+    ]
+  },
+  {
+    "title": "Maggie Simpson in \"The Longest Daycare\"",
+    "release_year": "2012",
+    "id": 116440,
+    "popularity": 1.2819,
+    "companies": [
+      "Gracie Films",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Fantastic Mr. Fox",
+    "release_year": "2009",
+    "id": 10315,
+    "popularity": 5.578,
+    "companies": [
+      "Regency Enterprises",
+      "Indian Paintbrush",
+      "American Empirical Pictures"
+    ]
+  },
+  {
+    "title": "Hello, Dolly!",
+    "release_year": "1969",
+    "id": 14030,
+    "popularity": 1.3601,
+    "companies": [
+      "Chenault Productions",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Maleficent: Mistress of Evil",
+    "release_year": "2019",
+    "id": 420809,
+    "popularity": 9.4646,
+    "companies": [
+      "Walt Disney Pictures",
+      "Roth Films"
+    ]
+  },
+  {
+    "title": "Star Wars: The Rise of Skywalker (Episode IX)",
+    "release_year": "2019",
+    "id": 181812,
+    "popularity": 8.8673,
+    "companies": [
+      "Lucasfilm Ltd.",
+      "Bad Robot"
+    ]
+  },
+  {
+    "title": "John Carter",
+    "release_year": "2012",
+    "id": 49529,
+    "popularity": 4.7998,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "George of the Jungle",
+    "release_year": "1997",
+    "id": 10603,
+    "popularity": 3.0807,
+    "companies": [
+      "Mandeville Films",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Homeward Bound II: Lost in San Francisco",
+    "release_year": "1996",
+    "id": 25059,
+    "popularity": 1.5375,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Homeward Bound: The Incredible Journey",
+    "release_year": "1993",
+    "id": 6878,
+    "popularity": 2.9825,
+    "companies": [
+      "Touchwood Pacific Partners 1",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Princess Bride",
+    "release_year": "1987",
+    "id": 2493,
+    "popularity": 6.9825,
+    "companies": [
+      "The Princess Bride Ltd.",
+      "Buttercup Films Ltd.",
+      "Act III Productions"
+    ]
+  },
+  {
+    "title": "National Treasure",
+    "release_year": "2004",
+    "id": 2059,
+    "popularity": 5.6724,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Saturn Films",
+      "Junction Entertainment"
+    ]
+  },
+  {
+    "title": "Onward",
+    "release_year": "2020",
+    "id": 508439,
+    "popularity": 4.0472,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "The Straight Story",
+    "release_year": "1999",
+    "id": 404,
+    "popularity": 2.405,
+    "companies": [
+      "Les Films Alain Sarde",
+      "Picture Factory",
+      "Le Studio Canal+",
+      "Film4 Productions"
+    ]
+  },
+  {
+    "title": "Frankenweenie",
+    "release_year": "2012",
+    "id": 62214,
+    "popularity": 3.6359,
+    "companies": [
+      "Tim Burton Productions"
+    ]
+  },
+  {
+    "title": "Mars Needs Moms",
+    "release_year": "2011",
+    "id": 50321,
+    "popularity": 1.9003,
+    "companies": [
+      "Walt Disney Pictures",
+      "ImageMovers Digital"
+    ]
+  },
+  {
+    "title": "The Last Song",
+    "release_year": "2010",
+    "id": 35690,
+    "popularity": 2.1176,
+    "companies": [
+      "Touchstone Pictures",
+      "HopeTown Entertainment"
+    ]
+  },
+  {
+    "title": "The Odd Life of Timothy Green",
+    "release_year": "2012",
+    "id": 71864,
+    "popularity": 1.5855,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "A Wrinkle in Time",
+    "release_year": "2018",
+    "id": 407451,
+    "popularity": 2.6775,
+    "companies": [
+      "Whitaker Entertainment",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "G-Force",
+    "release_year": "2009",
+    "id": 19585,
+    "popularity": 2.879,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Whamaphram Productions"
+    ]
+  },
+  {
+    "title": "Frozen 2",
+    "release_year": "2019",
+    "id": 330457,
+    "popularity": 10.3494,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "The Finest Hours",
+    "release_year": "2016",
+    "id": 300673,
+    "popularity": 2.7227,
+    "companies": [
+      "Red Hawk Entertainment",
+      "Walt Disney Pictures",
+      "Whitaker Entertainment",
+      "Bergsten Music"
+    ]
+  },
+  {
+    "title": "Bedtime Stories",
+    "release_year": "2008",
+    "id": 10202,
+    "popularity": 3.6271,
+    "companies": [
+      "Walt Disney Pictures",
+      "Gunn Films",
+      "Happy Madison Productions"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Black Panther",
+    "release_year": "2018",
+    "id": 284054,
+    "popularity": 9.2386,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel's Iron Man & Hulk: Heroes United",
+    "release_year": "2013",
+    "id": 230896,
+    "popularity": 1.002,
+    "companies": [
+      "Marvel Animation"
+    ]
+  },
+  {
+    "title": "Because of Winn-Dixie",
+    "release_year": "2005",
+    "id": 17880,
+    "popularity": 1.0609,
+    "companies": [
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Splash",
+    "release_year": "1984",
+    "id": 2619,
+    "popularity": 2.0246,
+    "companies": [
+      "Touchstone Pictures"
+    ]
+  },
+  {
+    "title": "Timmy Failure: Mistakes Were Made",
+    "release_year": "2020",
+    "id": 550440,
+    "popularity": 1.0617,
+    "companies": [
+      "Walt Disney Pictures",
+      "Whitaker Entertainment",
+      "Slow Pony"
+    ]
+  },
+  {
+    "title": "Toy Story 4",
+    "release_year": "2019",
+    "id": 301528,
+    "popularity": 10.1764,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Descendants 3",
+    "release_year": "2019",
+    "id": 506574,
+    "popularity": 6.5363,
+    "companies": [
+      "Bad Angels Productions, Ltd.",
+      "5678 Productions",
+      "Disney Channels Worldwide"
+    ]
+  },
+  {
+    "title": "Around the World in 80 Days",
+    "release_year": "2004",
+    "id": 10204,
+    "popularity": 4.1494,
+    "companies": [
+      "Studio Babelsberg",
+      "Walden Media",
+      "Mostow/Lieberman Productions",
+      "80 Days Productions",
+      "Spanknyce Films",
+      "Fitzwilliam Productions",
+      "Walt Disney Pictures",
+      "Summit Entertainment"
+    ]
+  },
+  {
+    "title": "The Lion King",
+    "release_year": "2019",
+    "id": 8587,
+    "popularity": 15.8772,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Aladdin (2019)",
+    "release_year": "2019",
+    "id": 420817,
+    "popularity": 9.2762,
+    "companies": [
+      "Walt Disney Pictures",
+      "Rideback"
+    ]
+  },
+  {
+    "title": "Cool Runnings",
+    "release_year": "1993",
+    "id": 864,
+    "popularity": 2.9444,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Holes",
+    "release_year": "2003",
+    "id": 8326,
+    "popularity": 3.3832,
+    "companies": [
+      "Phoenix Pictures",
+      "Chicago Pacific Entertainment",
+      "Walden Media",
+      "Walt Disney Pictures",
+      "Summit Entertainment"
+    ]
+  },
+  {
+    "title": "Marvel 75 Years: From Pulp to Pop!",
+    "release_year": "2014",
+    "id": 299969,
+    "popularity": 1.3229,
+    "companies": [
+      "Bow + Arrow Entertainment",
+      "Marvel Entertainment"
+    ]
+  },
+  {
+    "title": "Star Wars: The Last Jedi (Episode VIII)",
+    "release_year": "2017",
+    "id": 181808,
+    "popularity": 8.13,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "George of the Jungle 2",
+    "release_year": "2003",
+    "id": 26264,
+    "popularity": 1.2976,
+    "companies": [
+      "Kerner Entertainment Company",
+      "Walt Disney Home Video"
+    ]
+  },
+  {
+    "title": "Togo",
+    "release_year": "2019",
+    "id": 606856,
+    "popularity": 2.9155,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Thor: Ragnarok",
+    "release_year": "2017",
+    "id": 284053,
+    "popularity": 12.2733,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Glory Road",
+    "release_year": "2006",
+    "id": 9918,
+    "popularity": 1.7354,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Talent One",
+      "Buena Vista International",
+      "The Walt Disney Studios",
+      "Buena Vista Home Entertainment"
+    ]
+  },
+  {
+    "title": "Coco",
+    "release_year": "2017",
+    "id": 354912,
+    "popularity": 19.1177,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "10 Things I Hate About You",
+    "release_year": "1999",
+    "id": 4951,
+    "popularity": 11.5414,
+    "companies": [
+      "Mad Chance",
+      "Jaret Entertainment"
+    ]
+  },
+  {
+    "title": "101 Dalmatians",
+    "release_year": "1961",
+    "id": 12230,
+    "popularity": 5.5621,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "101 Dalmatians II: Patch's London Adventure",
+    "release_year": "2003",
+    "id": 13654,
+    "popularity": 2.9766,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "102 Dalmatians",
+    "release_year": "2000",
+    "id": 10481,
+    "popularity": 2.0902,
+    "companies": [
+      "Walt Disney Pictures",
+      "Cruella Productions",
+      "Kanzaman S.A.M."
+    ]
+  },
+  {
+    "title": "20,000 Leagues Under the Sea",
+    "release_year": "1954",
+    "id": 173,
+    "popularity": 2.6696,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "A Bug's Life",
+    "release_year": "1998",
+    "id": 9487,
+    "popularity": 8.8418,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "A Goofy Movie",
+    "release_year": "1995",
+    "id": 15789,
+    "popularity": 2.4676,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation",
+      "Phoenix Animation Studios",
+      "Pixibox",
+      "Walt Disney Animation",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "A Kid in King Arthur's Court",
+    "release_year": "1995",
+    "id": 37108,
+    "popularity": 1.1336,
+    "companies": [
+      "Trimark Pictures",
+      "Walt Disney Pictures",
+      "Tapestry Films"
+    ]
+  },
+  {
+    "title": "Aladdin (1992)",
+    "release_year": "1992",
+    "id": 812,
+    "popularity": 7.923,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Aladdin and the King of Thieves",
+    "release_year": "1996",
+    "id": 11238,
+    "popularity": 2.884,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Aladdin: The Return of Jafar",
+    "release_year": "1994",
+    "id": 15969,
+    "popularity": 3.026,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Alice in Wonderland",
+    "release_year": "1951",
+    "id": 12092,
+    "popularity": 7.4685,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "An Extremely Goofy Movie",
+    "release_year": "2000",
+    "id": 15653,
+    "popularity": 1.9287,
+    "companies": [
+      "Disney Television Animation",
+      "Walt Disney Animation"
+    ]
+  },
+  {
+    "title": "Annie",
+    "release_year": "1999",
+    "id": 26177,
+    "popularity": 1.0052,
+    "companies": [
+      "Storyline Entertainment",
+      "Columbia TriStar Television",
+      "Chris Montan Productions",
+      "Walt Disney Television"
+    ]
+  },
+  {
+    "title": "Atlantis: Milo's Return",
+    "release_year": "2003",
+    "id": 8965,
+    "popularity": 2.4145,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Atlantis: The Lost Empire",
+    "release_year": "2001",
+    "id": 10865,
+    "popularity": 3.8298,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Auntie Edna",
+    "release_year": "2018",
+    "id": 546728,
+    "popularity": 1.383,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Avatar",
+    "release_year": "2009",
+    "id": 19995,
+    "popularity": 29.8513,
+    "companies": [
+      "Dune Entertainment",
+      "Lightstorm Entertainment",
+      "20th Century Fox",
+      "Ingenious Media"
+    ]
+  },
+  {
+    "title": "Bambi",
+    "release_year": "1942",
+    "id": 3170,
+    "popularity": 5.4772,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Bambi II",
+    "release_year": "2006",
+    "id": 13205,
+    "popularity": 2.3197,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Bao",
+    "release_year": "2018",
+    "id": 514754,
+    "popularity": 1.1876,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Beauty and the Beast: Belle's Magical World",
+    "release_year": "1998",
+    "id": 20235,
+    "popularity": 2.0552,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Beauty and the Beast: The Enchanted Christmas",
+    "release_year": "1997",
+    "id": 13313,
+    "popularity": 3.8468,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Before the Flood",
+    "release_year": "2016",
+    "id": 410718,
+    "popularity": 1.3242,
+    "companies": [
+      "RatPac Documentary Films",
+      "Appian Way",
+      "National Geographic",
+      "Diamond Docs"
+    ]
+  },
+  {
+    "title": "Big Hero 6",
+    "release_year": "2014",
+    "id": 177572,
+    "popularity": 13.52,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Blank Check",
+    "release_year": "1994",
+    "id": 13962,
+    "popularity": 1.5156,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Bolt",
+    "release_year": "2008",
+    "id": 13053,
+    "popularity": 5.606,
+    "companies": [
+      "Walt Disney Animation Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Brave",
+    "release_year": "2012",
+    "id": 62177,
+    "popularity": 11.5634,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Brother Bear",
+    "release_year": "2003",
+    "id": 10009,
+    "popularity": 6.4747,
+    "companies": [
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Brother Bear 2",
+    "release_year": "2006",
+    "id": 10010,
+    "popularity": 3.1027,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Cadet Kelly",
+    "release_year": "2002",
+    "id": 14008,
+    "popularity": 1.4273,
+    "companies": [
+      "Leider/Shapiro Productions",
+      "Walt Disney Television"
+    ]
+  },
+  {
+    "title": "Camp Rock",
+    "release_year": "2008",
+    "id": 13655,
+    "popularity": 1.8658,
+    "companies": [
+      "Alan Sacks Productions",
+      "Walt Disney Television",
+      "Sudden Motion Productions"
+    ]
+  },
+  {
+    "title": "Camp Rock 2: The Final Jam",
+    "release_year": "2010",
+    "id": 44244,
+    "popularity": 1.4324,
+    "companies": [
+      "Alan Sacks Productions",
+      "Walt Disney Television",
+      "Coin Flip Productions"
+    ]
+  },
+  {
+    "title": "Cars",
+    "release_year": "2006",
+    "id": 920,
+    "popularity": 10.009,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Cars 2",
+    "release_year": "2011",
+    "id": 49013,
+    "popularity": 11.0062,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Cars 3",
+    "release_year": "2017",
+    "id": 260514,
+    "popularity": 11.1752,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Chicken Little",
+    "release_year": "2005",
+    "id": 9982,
+    "popularity": 5.9016,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Cinderella",
+    "release_year": "1950",
+    "id": 11224,
+    "popularity": 9.3134,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Cinderella II: Dreams Come True",
+    "release_year": "2002",
+    "id": 14128,
+    "popularity": 4.5382,
+    "companies": [
+      "Walt Disney Animation Japan",
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Cinderella III: A Twist in Time",
+    "release_year": "2007",
+    "id": 16119,
+    "popularity": 2.8402,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Cloud 9",
+    "release_year": "2014",
+    "id": 245473,
+    "popularity": 1.9578,
+    "companies": [
+      "Salty Pictures",
+      "Blondie Girl Productions"
+    ]
+  },
+  {
+    "title": "Confessions of a Teenage Drama Queen",
+    "release_year": "2004",
+    "id": 11132,
+    "popularity": 3.0503,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Cow Belles",
+    "release_year": "2006",
+    "id": 24801,
+    "popularity": 1.1479,
+    "companies": [
+      "Just Singer Entertainment",
+      "Spotted Cow Productions"
+    ]
+  },
+  {
+    "title": "Darby O'Gill and the Little People",
+    "release_year": "1959",
+    "id": 18887,
+    "popularity": 1.0287,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Deep Blue",
+    "release_year": "2005",
+    "id": 11019,
+    "popularity": 1.3818,
+    "companies": [
+      "Greenlight Media AG",
+      "BBC Worldwide",
+      "BBC Studios Natural History Unit"
+    ]
+  },
+  {
+    "title": "Descendants 2",
+    "release_year": "2017",
+    "id": 417320,
+    "popularity": 5.351,
+    "companies": [
+      "Bad Angels Productions, Ltd.",
+      "5678 Productions"
+    ]
+  },
+  {
+    "title": "Diary Of A Wimpy Kid",
+    "release_year": "2010",
+    "id": 33217,
+    "popularity": 6.5342,
+    "companies": [
+      "Dayday Films",
+      "Color Force",
+      "Dune Entertainment",
+      "Fox 2000 Pictures"
+    ]
+  },
+  {
+    "title": "Dinosaur",
+    "release_year": "2000",
+    "id": 10567,
+    "popularity": 5.1079,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation",
+      "The Secret Lab"
+    ]
+  },
+  {
+    "title": "Disney's The Kid",
+    "release_year": "2000",
+    "id": 4244,
+    "popularity": 2.0319,
+    "companies": [
+      "Walt Disney Pictures",
+      "Chester Films Inc.",
+      "Junction"
+    ]
+  },
+  {
+    "title": "DuckTales The Movie: Treasure of the Lost Lamp",
+    "release_year": "1990",
+    "id": 10837,
+    "popularity": 1.7634,
+    "companies": [
+      "Walt Disney Animation"
+    ]
+  },
+  {
+    "title": "Dumbo",
+    "release_year": "2019",
+    "id": 329996,
+    "popularity": 4.5569,
+    "companies": [
+      "Tim Burton Productions",
+      "Walt Disney Pictures",
+      "Infinite Detective",
+      "Secret Machine Entertainment",
+      "British Film Commission",
+      "South Australian Film Corporation"
+    ]
+  },
+  {
+    "title": "Eight Below",
+    "release_year": "2006",
+    "id": 9036,
+    "popularity": 2.7043,
+    "companies": [
+      "Walt Disney Pictures",
+      "Spyglass Entertainment",
+      "Mandeville Films",
+      "Winking Productions",
+      "The Kennedy/Marshall Company"
+    ]
+  },
+  {
+    "title": "Escape to Witch Mountain",
+    "release_year": "1975",
+    "id": 14821,
+    "popularity": 1.3533,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Fantasia",
+    "release_year": "1940",
+    "id": 756,
+    "popularity": 3.5882,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Fantasia 2000",
+    "release_year": "2000",
+    "id": 49948,
+    "popularity": 1.6569,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Ferdinand the Bull",
+    "release_year": "1938",
+    "id": 47166,
+    "popularity": 1.2094,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Finding Dory",
+    "release_year": "2016",
+    "id": 127380,
+    "popularity": 5.9733,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Finding Nemo",
+    "release_year": "2003",
+    "id": 12,
+    "popularity": 14.6297,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Flight of the Navigator",
+    "release_year": "1986",
+    "id": 10122,
+    "popularity": 2.2614,
+    "companies": [
+      "New Star Entertainment",
+      "Walt Disney Pictures",
+      "Viking Film",
+      "PSO"
+    ]
+  },
+  {
+    "title": "Flubber",
+    "release_year": "1997",
+    "id": 9574,
+    "popularity": 2.7027,
+    "companies": [
+      "Walt Disney Pictures",
+      "Great Oaks Entertainment"
+    ]
+  },
+  {
+    "title": "For the Birds",
+    "release_year": "2001",
+    "id": 13930,
+    "popularity": 1.2084,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Freaky Friday",
+    "release_year": "2003",
+    "id": 10330,
+    "popularity": 14.3683,
+    "companies": [
+      "Casual Friday Productions",
+      "Gunn Films",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Free Solo",
+    "release_year": "2018",
+    "id": 515042,
+    "popularity": 2.102,
+    "companies": [
+      "National Geographic Documentary Films",
+      "Little Monster Films",
+      "Itinerant Media",
+      "Parkes+MacDonald Image Nation"
+    ]
+  },
+  {
+    "title": "Frenemies",
+    "release_year": "2012",
+    "id": 84105,
+    "popularity": 1.3088,
+    "companies": [
+      "Alloy Entertainment",
+      "Coin Flip Productions",
+      "Walt Disney Television"
+    ]
+  },
+  {
+    "title": "Frozen",
+    "release_year": "2013",
+    "id": 109445,
+    "popularity": 16.7698,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Fun and Fancy Free",
+    "release_year": "1947",
+    "id": 46929,
+    "popularity": 1.3648,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Geek Charming",
+    "release_year": "2011",
+    "id": 81250,
+    "popularity": 1.701,
+    "companies": [
+      "Mandeville Films",
+      "Bad Angels Productions, Ltd."
+    ]
+  },
+  {
+    "title": "Geri's Game",
+    "release_year": "1997",
+    "id": 13929,
+    "popularity": 1.0179,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Good Luck Charlie, It's Christmas!",
+    "release_year": "2011",
+    "id": 81440,
+    "popularity": 1.0799,
+    "companies": [
+      "Salty Pictures"
+    ]
+  },
+  {
+    "title": "Halloweentown",
+    "release_year": "1998",
+    "id": 27850,
+    "popularity": 1.3421,
+    "companies": [
+      "Singer/White Entertainment",
+      "Ventura Valley Films",
+      "Disney Channel"
+    ]
+  },
+  {
+    "title": "Hannah Montana The Movie",
+    "release_year": "2009",
+    "id": 18126,
+    "popularity": 2.1826,
+    "companies": [
+      "It's a Laugh Productions",
+      "Millar Gough Ink",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Hatching Pete",
+    "release_year": "2009",
+    "id": 52699,
+    "popularity": 1.2207,
+    "companies": [
+      "Just Singer Entertainment",
+      "Salty Pictures"
+    ]
+  },
+  {
+    "title": "Heavyweights",
+    "release_year": "1995",
+    "id": 14819,
+    "popularity": 1.6851,
+    "companies": [
+      "Walt Disney Pictures",
+      "Caravan Pictures"
+    ]
+  },
+  {
+    "title": "Herbie Goes Bananas",
+    "release_year": "1980",
+    "id": 12129,
+    "popularity": 1.6458,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Herbie Goes to Monte Carlo",
+    "release_year": "1977",
+    "id": 14140,
+    "popularity": 1.0933,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Herbie Rides Again",
+    "release_year": "1974",
+    "id": 10869,
+    "popularity": 1.3574,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Hercules",
+    "release_year": "1997",
+    "id": 11970,
+    "popularity": 8.4157,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "High School Musical",
+    "release_year": "2006",
+    "id": 10947,
+    "popularity": 3.5916,
+    "companies": [
+      "Salty Pictures",
+      "First Street Films"
+    ]
+  },
+  {
+    "title": "High School Musical 2",
+    "release_year": "2007",
+    "id": 13649,
+    "popularity": 2.5051,
+    "companies": [
+      "First Street Films",
+      "Salty Pictures"
+    ]
+  },
+  {
+    "title": "High School Musical 3: Senior Year",
+    "release_year": "2008",
+    "id": 11887,
+    "popularity": 2.5278,
+    "companies": [
+      "Walt Disney Pictures",
+      "Borden & Rosenbush Entertainment"
+    ]
+  },
+  {
+    "title": "Hocus Pocus",
+    "release_year": "1993",
+    "id": 10439,
+    "popularity": 4.3016,
+    "companies": [
+      "Walt Disney Pictures",
+      "Touchwood Pacific Partners 1",
+      "David Kirschner Productions"
+    ]
+  },
+  {
+    "title": "Home on the Range",
+    "release_year": "2004",
+    "id": 13700,
+    "popularity": 4.0003,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Honey, I Blew Up the Kid",
+    "release_year": "1992",
+    "id": 11158,
+    "popularity": 1.9067,
+    "companies": [
+      "Walt Disney Pictures",
+      "Touchwood Pacific Partners 1"
+    ]
+  },
+  {
+    "title": "Honey, I Shrunk the Kids",
+    "release_year": "1989",
+    "id": 9354,
+    "popularity": 2.7344,
+    "companies": [
+      "Walt Disney Pictures",
+      "Silver Screen Partners III"
+    ]
+  },
+  {
+    "title": "Honey, We Shrunk Ourselves",
+    "release_year": "1997",
+    "id": 11425,
+    "popularity": 1.2844,
+    "companies": [
+      "Walt Disney Home Video"
+    ]
+  },
+  {
+    "title": "How to Build a Better Boy",
+    "release_year": "2014",
+    "id": 286987,
+    "popularity": 1.5004,
+    "companies": [
+      "Schorr Pictures"
+    ]
+  },
+  {
+    "title": "Ice Age: The Great Egg-Scapade",
+    "release_year": "2016",
+    "id": 387893,
+    "popularity": 1.6042,
+    "companies": [
+      "House of Cool Studios",
+      "Blue Sky Studios",
+      "20th Century Fox Animation",
+      "Arc Productions"
+    ]
+  },
+  {
+    "title": "Ice Princess",
+    "release_year": "2005",
+    "id": 13374,
+    "popularity": 1.865,
+    "companies": [
+      "Walt Disney Pictures",
+      "Bridget Johnson Films",
+      "Skate Away Productions"
+    ]
+  },
+  {
+    "title": "Inside Out",
+    "release_year": "2015",
+    "id": 150540,
+    "popularity": 19.7497,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Inspector Gadget",
+    "release_year": "1999",
+    "id": 332,
+    "popularity": 1.4874,
+    "companies": [
+      "DiC Entertainment",
+      "Walt Disney Pictures",
+      "Caravan Pictures",
+      "Avnet/Kerner Productions",
+      "Roger Birnbaum Productions"
+    ]
+  },
+  {
+    "title": "Inspector Gadget 2",
+    "release_year": "2003",
+    "id": 19766,
+    "popularity": 1.1299,
+    "companies": [
+      "Fountain Films",
+      "Walt Disney Home Video",
+      "DiC Entertainment",
+      "Kerner Entertainment Company"
+    ]
+  },
+  {
+    "title": "Invincible",
+    "release_year": "2006",
+    "id": 11652,
+    "popularity": 1.6303,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Invisible Sister",
+    "release_year": "2015",
+    "id": 360605,
+    "popularity": 2.415,
+    "companies": [
+      "GWave Productions"
+    ]
+  },
+  {
+    "title": "Iron Will",
+    "release_year": "1994",
+    "id": 24767,
+    "popularity": 1.2763,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Jack",
+    "release_year": "1996",
+    "id": 7095,
+    "popularity": 2.3885,
+    "companies": [
+      "Hollywood Pictures",
+      "Great Oaks Entertainment",
+      "American Zoetrope"
+    ]
+  },
+  {
+    "title": "James and the Giant Peach",
+    "release_year": "1996",
+    "id": 10539,
+    "popularity": 2.521,
+    "companies": [
+      "Allied Filmmakers",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Journey to the Center of the Earth",
+    "release_year": "1959",
+    "id": 11571,
+    "popularity": 1.7415,
+    "companies": [
+      "Cooga Mooga",
+      "Joseph M. Schenck Enterprises",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Jungle 2 Jungle",
+    "release_year": "1997",
+    "id": 9446,
+    "popularity": 1.2715,
+    "companies": [
+      "Walt Disney Pictures",
+      "TF1 Films Production",
+      "Motion Picture Corporation of America"
+    ]
+  },
+  {
+    "title": "Kazaam",
+    "release_year": "1996",
+    "id": 11511,
+    "popularity": 1.0854,
+    "companies": [
+      "Touchstone Pictures",
+      "Interscope Communications",
+      "PolyGram Filmed Entertainment",
+      "Universal Pictures"
+    ]
+  },
+  {
+    "title": "Kim Possible",
+    "release_year": "2019",
+    "id": 520720,
+    "popularity": 1.1811,
+    "companies": [
+      "Omnifilm Entertainment",
+      "Disney Enterprises, Inc."
+    ]
+  },
+  {
+    "title": "Kim Possible Movie: So the Drama",
+    "release_year": "2005",
+    "id": 20771,
+    "popularity": 1.1207,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Kitbull",
+    "release_year": "2019",
+    "id": 574074,
+    "popularity": 1.3302,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Kronk's New Groove",
+    "release_year": "2005",
+    "id": 13417,
+    "popularity": 2.7384,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios",
+      "Walt Disney Home Video"
+    ]
+  },
+  {
+    "title": "Lady and the Tramp",
+    "release_year": "2019",
+    "id": 512895,
+    "popularity": 2.914,
+    "companies": [
+      "Walt Disney Pictures",
+      "Taylor Made Entertainment"
+    ]
+  },
+  {
+    "title": "Lemonade Mouth",
+    "release_year": "2011",
+    "id": 65218,
+    "popularity": 1.7189,
+    "companies": [
+      "Martin Chase Productions",
+      "GWave Productions"
+    ]
+  },
+  {
+    "title": "Leroy & Stitch",
+    "release_year": "2006",
+    "id": 21316,
+    "popularity": 5.0979,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Let it Shine",
+    "release_year": "2012",
+    "id": 114955,
+    "popularity": 1.6563,
+    "companies": [
+      "GWave Productions",
+      "Walt Disney Television"
+    ]
+  },
+  {
+    "title": "Lilo & Stitch",
+    "release_year": "2002",
+    "id": 11544,
+    "popularity": 20.317,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Lilo & Stitch 2: Stitch Has a Glitch",
+    "release_year": "2005",
+    "id": 20760,
+    "popularity": 8.8899,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Marvel Studios: Assembling A Universe",
+    "release_year": "2014",
+    "id": 259910,
+    "popularity": 1.8139,
+    "companies": [
+      "ABC Studios",
+      "Marvel Studios",
+      "Mutant Enemy Productions"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Ant-Man",
+    "release_year": "2015",
+    "id": 102899,
+    "popularity": 7.2247,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Avengers: Age of Ultron",
+    "release_year": "2015",
+    "id": 99861,
+    "popularity": 16.1719,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Avengers: Endgame",
+    "release_year": "2019",
+    "id": 299534,
+    "popularity": 19.554,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Captain America: Civil War",
+    "release_year": "2016",
+    "id": 271110,
+    "popularity": 14.3294,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Captain America: The First Avenger",
+    "release_year": "2011",
+    "id": 1771,
+    "popularity": 9.0685,
+    "companies": [
+      "Marvel Studios",
+      "Marvel Entertainment"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Captain America: The Winter Soldier",
+    "release_year": "2014",
+    "id": 100402,
+    "popularity": 6.6722,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Captain Marvel",
+    "release_year": "2019",
+    "id": 299537,
+    "popularity": 8.33,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Doctor Strange",
+    "release_year": "2016",
+    "id": 284052,
+    "popularity": 10.8648,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Guardians of the Galaxy",
+    "release_year": "2014",
+    "id": 118340,
+    "popularity": 7.1343,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Guardians of the Galaxy Vol. 2",
+    "release_year": "2017",
+    "id": 283995,
+    "popularity": 17.9909,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Iron Man",
+    "release_year": "2008",
+    "id": 1726,
+    "popularity": 17.9855,
+    "companies": [
+      "Marvel Studios",
+      "Marvel Entertainment",
+      "Fairview Entertainment"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Iron Man 2",
+    "release_year": "2010",
+    "id": 10138,
+    "popularity": 20.4033,
+    "companies": [
+      "Marvel Studios",
+      "Fairview Entertainment",
+      "Marvel Entertainment"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Iron Man 3",
+    "release_year": "2013",
+    "id": 68721,
+    "popularity": 17.5261,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Thor",
+    "release_year": "2011",
+    "id": 10195,
+    "popularity": 9.1889,
+    "companies": [
+      "Marvel Studios",
+      "Marvel Entertainment"
+    ]
+  },
+  {
+    "title": "Marvel Studios' Thor: The Dark World",
+    "release_year": "2013",
+    "id": 76338,
+    "popularity": 7.8863,
+    "companies": [
+      "Marvel Studios"
+    ]
+  },
+  {
+    "title": "Mary Poppins",
+    "release_year": "1964",
+    "id": 433,
+    "popularity": 5.0044,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Mater and the Ghostlight",
+    "release_year": "2006",
+    "id": 13934,
+    "popularity": 1.2368,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Meet the Deedles",
+    "release_year": "1998",
+    "id": 40688,
+    "popularity": 1.0748,
+    "companies": [
+      "Walt Disney Pictures",
+      "DiC Entertainment",
+      "Peak Productions"
+    ]
+  },
+  {
+    "title": "Meet the Robinsons",
+    "release_year": "2007",
+    "id": 1267,
+    "popularity": 5.8807,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Mickey, Donald, Goofy: The Three Musketeers",
+    "release_year": "2004",
+    "id": 21385,
+    "popularity": 2.6403,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Mickey's Christmas Carol",
+    "release_year": "1983",
+    "id": 14813,
+    "popularity": 1.271,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Mickey's Once Upon a Christmas",
+    "release_year": "1999",
+    "id": 15400,
+    "popularity": 1.4424,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Mickey's Twice Upon a Christmas",
+    "release_year": "2004",
+    "id": 13378,
+    "popularity": 1.4507,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Mighty Joe Young",
+    "release_year": "1998",
+    "id": 9822,
+    "popularity": 1.4225,
+    "companies": [
+      "Walt Disney Pictures",
+      "RKO Pictures",
+      "The Jacobson Company"
+    ]
+  },
+  {
+    "title": "Miracle",
+    "release_year": "2004",
+    "id": 14292,
+    "popularity": 1.4229,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Moana",
+    "release_year": "2016",
+    "id": 277834,
+    "popularity": 3.3547,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "Mom's Got a Date With a Vampire",
+    "release_year": "2000",
+    "id": 92208,
+    "popularity": 1.0687,
+    "companies": [
+      "Upstart Productions",
+      "Walt Disney Television"
+    ]
+  },
+  {
+    "title": "Monsters University",
+    "release_year": "2013",
+    "id": 62211,
+    "popularity": 7.9794,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Monsters, Inc.",
+    "release_year": "2001",
+    "id": 585,
+    "popularity": 17.3859,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Mulan II",
+    "release_year": "2005",
+    "id": 12242,
+    "popularity": 5.7005,
+    "companies": [
+      "DisneyToon Studios",
+      "Walt Disney Home Video",
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Muppets Most Wanted",
+    "release_year": "2014",
+    "id": 145220,
+    "popularity": 1.2818,
+    "companies": [
+      "Walt Disney Pictures",
+      "Mandeville Films",
+      "The Muppets Studio"
+    ]
+  },
+  {
+    "title": "National Treasure: Book of Secrets",
+    "release_year": "2007",
+    "id": 6637,
+    "popularity": 5.003,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Saturn Films",
+      "Junction Entertainment",
+      "Sparkler Entertainment",
+      "NT2 Productions"
+    ]
+  },
+  {
+    "title": "Newsies",
+    "release_year": "1992",
+    "id": 15300,
+    "popularity": 1.3137,
+    "companies": [
+      "Walt Disney Pictures",
+      "Touchwood Pacific Partners 1"
+    ]
+  },
+  {
+    "title": "Newsies: The Broadway Musical",
+    "release_year": "2017",
+    "id": 462477,
+    "popularity": 1.106,
+    "companies": [
+      "Steam Motion & Sound",
+      "PJM Productions",
+      "Disney Theatrical Group"
+    ]
+  },
+  {
+    "title": "Noelle",
+    "release_year": "2019",
+    "id": 454467,
+    "popularity": 1.3503,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Olaf's Frozen Adventure",
+    "release_year": "2017",
+    "id": 460793,
+    "popularity": 2.5859,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Old Yeller",
+    "release_year": "1957",
+    "id": 22660,
+    "popularity": 1.476,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Oliver & Company",
+    "release_year": "1988",
+    "id": 12233,
+    "popularity": 2.4521,
+    "companies": [
+      "Walt Disney Pictures",
+      "Silver Screen Partners III",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "Operation Dumbo Drop",
+    "release_year": "1995",
+    "id": 27281,
+    "popularity": 1.0597,
+    "companies": [
+      "Interscope Communications",
+      "Walt Disney Pictures",
+      "PolyGram Filmed Entertainment"
+    ]
+  },
+  {
+    "title": "Partly Cloudy",
+    "release_year": "2009",
+    "id": 24480,
+    "popularity": 1.4369,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Pete's Dragon",
+    "release_year": "2016",
+    "id": 294272,
+    "popularity": 2.4976,
+    "companies": [
+      "Whitaker Entertainment"
+    ]
+  },
+  {
+    "title": "Peter Pan",
+    "release_year": "1953",
+    "id": 10693,
+    "popularity": 5.5769,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Peter Pan: Return to Never Land",
+    "release_year": "2002",
+    "id": 16690,
+    "popularity": 1.8288,
+    "companies": [
+      "Disney Television Animation",
+      "Walt Disney Pictures",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Phineas and Ferb the Movie: Across the 2nd Dimension",
+    "release_year": "2011",
+    "id": 71689,
+    "popularity": 4.2438,
+    "companies": [
+      "Disney Television Animation",
+      "Disney Channel"
+    ]
+  },
+  {
+    "title": "Piglet's Big Movie",
+    "release_year": "2003",
+    "id": 13691,
+    "popularity": 1.766,
+    "companies": [
+      "Disney Television Animation",
+      "Walt Disney Pictures",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Pinocchio",
+    "release_year": "1940",
+    "id": 10895,
+    "popularity": 5.8521,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Piper",
+    "release_year": "2016",
+    "id": 399106,
+    "popularity": 1.7397,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: At World's End",
+    "release_year": "2007",
+    "id": 285,
+    "popularity": 17.3493,
+    "companies": [
+      "Jerry Bruckheimer Films",
+      "Second Mate Productions",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "release_year": "2006",
+    "id": 58,
+    "popularity": 16.3003,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films",
+      "Second Mate Productions"
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "release_year": "2003",
+    "id": 22,
+    "popularity": 20.3893,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jerry Bruckheimer Films"
+    ]
+  },
+  {
+    "title": "Pocahontas II: Journey to a New World",
+    "release_year": "1998",
+    "id": 13761,
+    "popularity": 1.61,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Pooh's Grand Adventure: The Search for Christopher Robin",
+    "release_year": "1997",
+    "id": 14903,
+    "popularity": 1.398,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Pooh's Heffalump Movie",
+    "release_year": "2005",
+    "id": 13682,
+    "popularity": 2.0435,
+    "companies": [
+      "DisneyToon Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Princess Protection Program",
+    "release_year": "2009",
+    "id": 19458,
+    "popularity": 2.8178,
+    "companies": [
+      "Walt Disney Television",
+      "Rainforest Productions"
+    ]
+  },
+  {
+    "title": "Ratatouille",
+    "release_year": "2007",
+    "id": 2062,
+    "popularity": 16.3993,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Recess: School's Out",
+    "release_year": "2001",
+    "id": 19405,
+    "popularity": 1.7007,
+    "companies": [
+      "Disney Television Animation",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Remember the Titans",
+    "release_year": "2000",
+    "id": 10637,
+    "popularity": 3.3457,
+    "companies": [
+      "Jerry Bruckheimer Films",
+      "Run It Up Productions Inc.",
+      "Technical Black Films",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Return to Halloweentown",
+    "release_year": "2006",
+    "id": 34204,
+    "popularity": 1.1272,
+    "companies": [
+      "Just Singer Entertainment"
+    ]
+  },
+  {
+    "title": "Return to Oz",
+    "release_year": "1985",
+    "id": 13155,
+    "popularity": 2.0634,
+    "companies": [
+      "Oz Productions Ltd.",
+      "Silver Screen Partners II"
+    ]
+  },
+  {
+    "title": "Riley’s First Date?",
+    "release_year": "2015",
+    "id": 355338,
+    "popularity": 1.5179,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Robin Hood",
+    "release_year": "1973",
+    "id": 11886,
+    "popularity": 3.7641,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Rogue One: A Star Wars Story",
+    "release_year": "2016",
+    "id": 330459,
+    "popularity": 6.0189,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Saludos Amigos",
+    "release_year": "1943",
+    "id": 14906,
+    "popularity": 1.7489,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Saving Mr. Banks",
+    "release_year": "2013",
+    "id": 140823,
+    "popularity": 1.6398,
+    "companies": [
+      "Hopscotch Features",
+      "Walt Disney Pictures",
+      "Ruby Films",
+      "Essential Media and Entertainment",
+      "BBC Film"
+    ]
+  },
+  {
+    "title": "Secret of The Wings",
+    "release_year": "2012",
+    "id": 75258,
+    "popularity": 5.513,
+    "companies": [
+      "DisneyToon Studios",
+      "Prana Animation Studios"
+    ]
+  },
+  {
+    "title": "Secretariat",
+    "release_year": "2010",
+    "id": 39486,
+    "popularity": 1.4512,
+    "companies": [
+      "Walt Disney Pictures",
+      "Fast Track Productions",
+      "Mayhem Pictures"
+    ]
+  },
+  {
+    "title": "Sharpay's Fabulous Adventure",
+    "release_year": "2011",
+    "id": 60405,
+    "popularity": 2.1654,
+    "companies": [
+      "Princessa Productions",
+      "Borden & Rosenbush Entertainment"
+    ]
+  },
+  {
+    "title": "Simpsons Movie",
+    "release_year": "2007",
+    "id": 35,
+    "popularity": 8.6482,
+    "companies": [
+      "Gracie Films",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Sister Act",
+    "release_year": "1992",
+    "id": 2005,
+    "popularity": 3.305,
+    "companies": [
+      "Touchstone Pictures",
+      "Touchwood Pacific Partners 1"
+    ]
+  },
+  {
+    "title": "Sister Act 2: Back in the Habit",
+    "release_year": "1993",
+    "id": 6279,
+    "popularity": 3.6202,
+    "companies": [
+      "Touchstone Pictures"
+    ]
+  },
+  {
+    "title": "Sleeping Beauty",
+    "release_year": "1959",
+    "id": 10882,
+    "popularity": 5.4934,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Snow White and The Seven Dwarfs",
+    "release_year": "1937",
+    "id": 408,
+    "popularity": 8.92,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Star Wars: A New Hope (Episode IV)",
+    "release_year": "1977",
+    "id": 11,
+    "popularity": 16.7261,
+    "companies": [
+      "Lucasfilm Ltd.",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Star Wars: Attack of the Clones (Episode II)",
+    "release_year": "2002",
+    "id": 1894,
+    "popularity": 5.994,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Star Wars: Return of the Jedi (Episode VI)",
+    "release_year": "1983",
+    "id": 1892,
+    "popularity": 6.6719,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Star Wars: Revenge of the Sith (Episode III)",
+    "release_year": "2005",
+    "id": 1895,
+    "popularity": 7.5939,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Star Wars: The Empire Strikes Back (Episode V)",
+    "release_year": "1980",
+    "id": 1891,
+    "popularity": 8.9537,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Star Wars: The Force Awakens (Episode VII)",
+    "release_year": "2015",
+    "id": 140607,
+    "popularity": 9.1534,
+    "companies": [
+      "Lucasfilm Ltd.",
+      "Bad Robot"
+    ]
+  },
+  {
+    "title": "Star Wars: The Phantom Menace (Episode I)",
+    "release_year": "1999",
+    "id": 1893,
+    "popularity": 6.9639,
+    "companies": [
+      "Lucasfilm Ltd."
+    ]
+  },
+  {
+    "title": "Starstruck",
+    "release_year": "2010",
+    "id": 35558,
+    "popularity": 2.0046,
+    "companies": [
+      "Disney Channel"
+    ]
+  },
+  {
+    "title": "Steamboat Willie",
+    "release_year": "1928",
+    "id": 53565,
+    "popularity": 1.0213,
+    "companies": [
+      "Walt Disney Studio"
+    ]
+  },
+  {
+    "title": "Stitch! The Movie",
+    "release_year": "2003",
+    "id": 15567,
+    "popularity": 3.6708,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Super Buddies",
+    "release_year": "2013",
+    "id": 149910,
+    "popularity": 1.0064,
+    "companies": [
+      "Key Pix Productions",
+      "Walt Disney Studios Home Entertainment"
+    ]
+  },
+  {
+    "title": "Tangled",
+    "release_year": "2010",
+    "id": 38757,
+    "popularity": 14.2725,
+    "companies": [
+      "Walt Disney Animation Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Tangled Before Ever After",
+    "release_year": "2017",
+    "id": 438747,
+    "popularity": 1.7281,
+    "companies": [
+      "Disney Television Animation",
+      "Televízia JOJ"
+    ]
+  },
+  {
+    "title": "Tarzan & Jane",
+    "release_year": "2002",
+    "id": 13683,
+    "popularity": 1.68,
+    "companies": [
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "Teen Beach 2",
+    "release_year": "2015",
+    "id": 325189,
+    "popularity": 1.1243,
+    "companies": [
+      "Rainforest Productions"
+    ]
+  },
+  {
+    "title": "Teen Beach Movie",
+    "release_year": "2013",
+    "id": 177888,
+    "popularity": 1.9367,
+    "companies": [
+      "Rainforest Productions"
+    ]
+  },
+  {
+    "title": "The Adventures of Ichabod and Mr. Toad",
+    "release_year": "1949",
+    "id": 13465,
+    "popularity": 2.2333,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Aristocats",
+    "release_year": "1970",
+    "id": 10112,
+    "popularity": 6.3258,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Black Cauldron",
+    "release_year": "1985",
+    "id": 10957,
+    "popularity": 2.7825,
+    "companies": [
+      "Silver Screen Partners II",
+      "Walt Disney Pictures",
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Black Hole",
+    "release_year": "1979",
+    "id": 9570,
+    "popularity": 1.6524,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Cheetah Girls",
+    "release_year": "2003",
+    "id": 32293,
+    "popularity": 1.1165,
+    "companies": [
+      "BrownHouse Productions",
+      "Martin Chase Productions"
+    ]
+  },
+  {
+    "title": "The Cheetah Girls 2",
+    "release_year": "2006",
+    "id": 37609,
+    "popularity": 1.1748,
+    "companies": [
+      "BrownHouse Productions",
+      "Martin Chase Productions"
+    ]
+  },
+  {
+    "title": "The Chronicles of Narnia: Prince Caspian",
+    "release_year": "2008",
+    "id": 2454,
+    "popularity": 7.3547,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walden Media",
+      "Silverbell Films",
+      "Mark Johnson Productions",
+      "C.S. Lewis Company"
+    ]
+  },
+  {
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "release_year": "2005",
+    "id": 411,
+    "popularity": 24.3191,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walden Media",
+      "C.S. Lewis Company"
+    ]
+  },
+  {
+    "title": "The Emperor's New Groove",
+    "release_year": "2000",
+    "id": 11688,
+    "popularity": 10.1246,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "The Fox and the Hound",
+    "release_year": "1981",
+    "id": 10948,
+    "popularity": 4.3649,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Fox and the Hound 2",
+    "release_year": "2006",
+    "id": 9948,
+    "popularity": 2.2078,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "The Game Plan",
+    "release_year": "2007",
+    "id": 13680,
+    "popularity": 5.4589,
+    "companies": [
+      "Monkey Dance Productions",
+      "Walt Disney Pictures",
+      "Mayhem Pictures"
+    ]
+  },
+  {
+    "title": "The Good Dinosaur",
+    "release_year": "2015",
+    "id": 105864,
+    "popularity": 7.1626,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Great Muppet Caper",
+    "release_year": "1981",
+    "id": 14900,
+    "popularity": 1.0626,
+    "companies": [
+      "ITC Entertainment",
+      "The Jim Henson Company"
+    ]
+  },
+  {
+    "title": "The Greatest Game Ever Played",
+    "release_year": "2005",
+    "id": 15487,
+    "popularity": 1.7059,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Haunted Mansion",
+    "release_year": "2003",
+    "id": 10756,
+    "popularity": 2.3704,
+    "companies": [
+      "Doom Buggy Productions",
+      "Walt Disney Pictures",
+      "Gunn Films"
+    ]
+  },
+  {
+    "title": "The Hunchback of Notre Dame",
+    "release_year": "1996",
+    "id": 10545,
+    "popularity": 5.355,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "The Hunchback of Notre Dame II",
+    "release_year": "2002",
+    "id": 12448,
+    "popularity": 2.0069,
+    "companies": [
+      "Disney Television Animation",
+      "Walt Disney Animation Japan",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Incredibles",
+    "release_year": "2004",
+    "id": 9806,
+    "popularity": 13.9172,
+    "companies": [
+      "Walt Disney Pictures",
+      "Pixar"
+    ]
+  },
+  {
+    "title": "The Jungle Book 2",
+    "release_year": "2003",
+    "id": 14873,
+    "popularity": 1.7921,
+    "companies": [
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "The Lion King 1 1/2",
+    "release_year": "2004",
+    "id": 11430,
+    "popularity": 4.3235,
+    "companies": [
+      "DisneyToon Studios",
+      "Disney Television Animation",
+      "Walt Disney Home Video"
+    ]
+  },
+  {
+    "title": "The Lion King 2: Simba's Pride",
+    "release_year": "1998",
+    "id": 9732,
+    "popularity": 7.2273,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "The Little Mermaid",
+    "release_year": "1989",
+    "id": 10144,
+    "popularity": 8.9937,
+    "companies": [
+      "Walt Disney Pictures",
+      "Silver Screen Partners IV",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "The Little Mermaid II:  Return to the Sea",
+    "release_year": "2000",
+    "id": 10898,
+    "popularity": 1.0083,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "The Lizzie McGuire Movie",
+    "release_year": "2003",
+    "id": 18736,
+    "popularity": 2.9799,
+    "companies": [
+      "Teen Life Productions",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Many Adventures of Winnie the Pooh",
+    "release_year": "1977",
+    "id": 250480,
+    "popularity": 2.1483,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Muppet Christmas Carol",
+    "release_year": "1992",
+    "id": 10437,
+    "popularity": 2.0638,
+    "companies": [
+      "Walt Disney Pictures",
+      "Jim Henson Productions",
+      "The Jim Henson Company"
+    ]
+  },
+  {
+    "title": "The Muppet Movie",
+    "release_year": "1979",
+    "id": 11176,
+    "popularity": 1.8985,
+    "companies": [
+      "ITC Entertainment",
+      "The Jim Henson Company",
+      "Associated Film Distribution",
+      "Jim Henson Productions"
+    ]
+  },
+  {
+    "title": "The Muppets",
+    "release_year": "2011",
+    "id": 64328,
+    "popularity": 2.1172,
+    "companies": [
+      "Walt Disney Pictures",
+      "The Muppets Studio"
+    ]
+  },
+  {
+    "title": "The Parent Trap",
+    "release_year": "1998",
+    "id": 9820,
+    "popularity": 10.7786,
+    "companies": [
+      "Walt Disney Pictures",
+      "The Meyers/Shyer Company"
+    ]
+  },
+  {
+    "title": "The Princess and the Frog",
+    "release_year": "2009",
+    "id": 10198,
+    "popularity": 11.6773,
+    "companies": [
+      "Walt Disney Pictures",
+      "Walt Disney Animation Studios"
+    ]
+  },
+  {
+    "title": "The Princess Diaries",
+    "release_year": "2001",
+    "id": 9880,
+    "popularity": 8.2818,
+    "companies": [
+      "Bottom of the Ninth Productions",
+      "Walt Disney Pictures",
+      "BrownHouse Productions"
+    ]
+  },
+  {
+    "title": "The Princess Diaries 2: Royal Engagement",
+    "release_year": "2004",
+    "id": 11130,
+    "popularity": 5.3707,
+    "companies": [
+      "BrownHouse Productions",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Rescuers",
+    "release_year": "1977",
+    "id": 11319,
+    "popularity": 2.7401,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Rescuers Down Under",
+    "release_year": "1990",
+    "id": 11135,
+    "popularity": 1.1592,
+    "companies": [
+      "Walt Disney Pictures",
+      "Silver Screen Partners IV",
+      "Walt Disney Feature Animation"
+    ]
+  },
+  {
+    "title": "The Rookie",
+    "release_year": "2002",
+    "id": 14635,
+    "popularity": 2.15,
+    "companies": [
+      "Walt Disney Pictures",
+      "Gran Via Productions",
+      "98 MPH Productions"
+    ]
+  },
+  {
+    "title": "The Santa Clause",
+    "release_year": "1994",
+    "id": 11395,
+    "popularity": 1.655,
+    "companies": [
+      "Walt Disney Pictures",
+      "Hollywood Pictures",
+      "Outlaw Productions"
+    ]
+  },
+  {
+    "title": "The Santa Clause 2",
+    "release_year": "2002",
+    "id": 9021,
+    "popularity": 1.5372,
+    "companies": [
+      "Walt Disney Pictures",
+      "Outlaw Productions",
+      "Boxing Cat Films"
+    ]
+  },
+  {
+    "title": "The Santa Clause 3: The Escape Clause",
+    "release_year": "2006",
+    "id": 13767,
+    "popularity": 2.3572,
+    "companies": [
+      "Walt Disney Pictures",
+      "Boxing Cat Films",
+      "Outlaw Productions",
+      "Santa Frost Productions"
+    ]
+  },
+  {
+    "title": "The Sound of Music",
+    "release_year": "1965",
+    "id": 15121,
+    "popularity": 5.574,
+    "companies": [
+      "Robert Wise Productions",
+      "Argyle Enterprises",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "The Thirteenth Year",
+    "release_year": "1999",
+    "id": 83965,
+    "popularity": 1.4921,
+    "companies": [
+      "Dream City Films",
+      "Mike Jacobs Jr. Productions",
+      "Walt Disney Television",
+      "Utica Productions"
+    ]
+  },
+  {
+    "title": "The Three Caballeros",
+    "release_year": "1945",
+    "id": 15947,
+    "popularity": 1.3245,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Tigger Movie",
+    "release_year": "2000",
+    "id": 15655,
+    "popularity": 1.7683,
+    "companies": [
+      "Walt Disney Pictures",
+      "DisneyToon Studios",
+      "Disney Television Animation"
+    ]
+  },
+  {
+    "title": "The Wild",
+    "release_year": "2006",
+    "id": 9904,
+    "popularity": 2.5375,
+    "companies": [
+      "Walt Disney Pictures",
+      "C.O.R.E. Feature Animation",
+      "Contrafilm",
+      "Hoytyboy Pictures",
+      "Nigel Productions",
+      "Sir Zip Studios"
+    ]
+  },
+  {
+    "title": "The Wizards Return: Alex vs. Alex",
+    "release_year": "2013",
+    "id": 178682,
+    "popularity": 1.5143,
+    "companies": [
+      "It's a Laugh Productions"
+    ]
+  },
+  {
+    "title": "The Young Black Stallion",
+    "release_year": "2003",
+    "id": 42418,
+    "popularity": 1.1282,
+    "companies": [
+      "FR Productions",
+      "The Kennedy/Marshall Company"
+    ]
+  },
+  {
+    "title": "Three Men and a Baby",
+    "release_year": "1987",
+    "id": 12154,
+    "popularity": 1.4139,
+    "companies": [
+      "Touchstone Pictures",
+      "Interscope Communications",
+      "Silver Screen Partners III"
+    ]
+  },
+  {
+    "title": "Three Men and a Little Lady",
+    "release_year": "1990",
+    "id": 11630,
+    "popularity": 1.2522,
+    "companies": [
+      "Touchstone Pictures",
+      "Interscope Communications"
+    ]
+  },
+  {
+    "title": "Tinker Bell",
+    "release_year": "2008",
+    "id": 13179,
+    "popularity": 5.0667,
+    "companies": [
+      "DisneyToon Studios",
+      "Prana Animation Studios"
+    ]
+  },
+  {
+    "title": "Tinker Bell and the Great Fairy Rescue",
+    "release_year": "2010",
+    "id": 44683,
+    "popularity": 3.4429,
+    "companies": [
+      "DisneyToon Studios",
+      "Prana Animation Studios"
+    ]
+  },
+  {
+    "title": "Tinker Bell and the Lost Treasure",
+    "release_year": "2009",
+    "id": 25475,
+    "popularity": 3.6719,
+    "companies": [
+      "DisneyToon Studios",
+      "Prana Animation Studios"
+    ]
+  },
+  {
+    "title": "Toy Story",
+    "release_year": "1995",
+    "id": 862,
+    "popularity": 20.1659,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Toy Story 2",
+    "release_year": "1999",
+    "id": 863,
+    "popularity": 18.1249,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Toy Story 3",
+    "release_year": "2010",
+    "id": 10193,
+    "popularity": 12.1374,
+    "companies": [
+      "Pixar",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Toy Story Toons: Hawaiian Vacation",
+    "release_year": "2011",
+    "id": 77887,
+    "popularity": 1.861,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Toy Story Toons: Partysaurus Rex",
+    "release_year": "2012",
+    "id": 130925,
+    "popularity": 1.5544,
+    "companies": [
+      "Pixar Canada"
+    ]
+  },
+  {
+    "title": "Toy Story Toons: Small Fry",
+    "release_year": "2011",
+    "id": 82424,
+    "popularity": 1.2185,
+    "companies": [
+      "Pixar Canada"
+    ]
+  },
+  {
+    "title": "Treasure Island",
+    "release_year": "1950",
+    "id": 6646,
+    "popularity": 1.434,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Treasure Planet",
+    "release_year": "2002",
+    "id": 9016,
+    "popularity": 5.772,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Tron",
+    "release_year": "1982",
+    "id": 97,
+    "popularity": 5.1785,
+    "companies": [
+      "Lisberger/Kushner Productions",
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Tuck Everlasting",
+    "release_year": "2002",
+    "id": 13768,
+    "popularity": 1.2265,
+    "companies": [
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Twitches",
+    "release_year": "2005",
+    "id": 21481,
+    "popularity": 1.8362,
+    "companies": [
+      "Disney Channel",
+      "Carla Singer Productions"
+    ]
+  },
+  {
+    "title": "Twitches Too",
+    "release_year": "2007",
+    "id": 46169,
+    "popularity": 1.1295,
+    "companies": []
+  },
+  {
+    "title": "Up",
+    "release_year": "2009",
+    "id": 14160,
+    "popularity": 14.4681,
+    "companies": [
+      "Pixar"
+    ]
+  },
+  {
+    "title": "Valiant",
+    "release_year": "2005",
+    "id": 14175,
+    "popularity": 2.0166,
+    "companies": [
+      "Vanguard Animation",
+      "Ealing Studios",
+      "UK Film Council",
+      "Odyssey Entertainment"
+    ]
+  },
+  {
+    "title": "Who Framed Roger Rabbit",
+    "release_year": "1988",
+    "id": 856,
+    "popularity": 4.6404,
+    "companies": [
+      "Amblin Entertainment",
+      "Silver Screen Partners III",
+      "Touchstone Pictures"
+    ]
+  },
+  {
+    "title": "Winnie the Pooh",
+    "release_year": "2011",
+    "id": 51162,
+    "popularity": 2.5868,
+    "companies": [
+      "Walt Disney Animation Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Winnie the Pooh: A Very Merry Pooh Year",
+    "release_year": "2002",
+    "id": 13706,
+    "popularity": 1.2041,
+    "companies": [
+      "Disney Television Animation",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Winnie the Pooh: Springtime with Roo",
+    "release_year": "2004",
+    "id": 16394,
+    "popularity": 1.6422,
+    "companies": [
+      "Disney Television Animation",
+      "DisneyToon Studios"
+    ]
+  },
+  {
+    "title": "Wizards of Waverly Place: The Movie",
+    "release_year": "2009",
+    "id": 26736,
+    "popularity": 2.3193,
+    "companies": [
+      "Disney Channel",
+      "It's a Laugh Productions"
+    ]
+  },
+  {
+    "title": "Wreck-It Ralph",
+    "release_year": "2012",
+    "id": 82690,
+    "popularity": 8.9591,
+    "companies": [
+      "Walt Disney Animation Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Z-O-M-B-I-E-S",
+    "release_year": "2018",
+    "id": 483980,
+    "popularity": 6.9833,
+    "companies": [
+      "Princessa Productions",
+      "Disney Channels Worldwide"
+    ]
+  },
+  {
+    "title": "Zapped",
+    "release_year": "2014",
+    "id": 278774,
+    "popularity": 1.2737,
+    "companies": [
+      "Off-Leash Teleproductions",
+      "Muse Entertainment",
+      "MarVista Entertainment"
+    ]
+  },
+  {
+    "title": "Zootopia",
+    "release_year": "2016",
+    "id": 269149,
+    "popularity": 17.8163,
+    "companies": [
+      "Walt Disney Animation Studios",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "Bedknobs and Broomsticks",
+    "release_year": "1971",
+    "id": 12335,
+    "popularity": 1.8456,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Lady and the Tramp II: Scamp's Adventure",
+    "release_year": "2001",
+    "id": 18269,
+    "popularity": 2.7262,
+    "companies": [
+      "Disney Television Animation",
+      "Walt Disney Animation",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Cat from Outer Space",
+    "release_year": "1978",
+    "id": 19378,
+    "popularity": 1.0988,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "The Great Mouse Detective",
+    "release_year": "1986",
+    "id": 9994,
+    "popularity": 2.075,
+    "companies": [
+      "Silver Screen Partners II",
+      "Walt Disney Pictures"
+    ]
+  },
+  {
+    "title": "The Sword in the Stone",
+    "release_year": "1963",
+    "id": 9078,
+    "popularity": 3.9881,
+    "companies": [
+      "Walt Disney Productions"
+    ]
+  },
+  {
+    "title": "Tomorrowland",
+    "release_year": "2015",
+    "id": 158852,
+    "popularity": 6.4412,
+    "companies": [
+      "Walt Disney Pictures",
+      "A113"
+    ]
+  },
+  {
+    "title": "Aquamarine",
+    "release_year": "2006",
+    "id": 14191,
+    "popularity": 3.2516,
+    "companies": [
+      "Fox 2000 Pictures",
+      "Storefront Pictures"
+    ]
+  },
+  {
+    "title": "Ice Age: Dawn Of The Dinosaurs",
+    "release_year": "2009",
+    "id": 8355,
+    "popularity": 8.9191,
+    "companies": [
+      "Blue Sky Studios",
+      "20th Century Fox Animation",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Night at the Museum: Battle of the Smithsonian",
+    "release_year": "2009",
+    "id": 18360,
+    "popularity": 4.7122,
+    "companies": [
+      "21 Laps Entertainment",
+      "1492 Pictures",
+      "Dune Entertainment",
+      "Museum Canada Productions",
+      "20th Century Fox"
+    ]
+  },
+  {
+    "title": "Eddie the Eagle",
+    "release_year": "2016",
+    "id": 319888,
+    "popularity": 2.7434,
+    "companies": [
+      "Marv",
+      "Saville Productions"
+    ]
+  },
+  {
+    "title": "Bend It Like Beckham",
+    "release_year": "2003",
+    "id": 455,
+    "popularity": 2.4144,
+    "companies": [
+      "Kintop Pictures",
+      "Bend It Films",
+      "Roc Media",
+      "Road Movies"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+/* Google FontsからNoto Sans JPをインポート */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5; /* 少しグレーがかった背景色 */
+  color: #333;
+}
+
+#root,
+#content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ボタンの基本スタイル */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* フォーム部品の基本スタイル */
+select,
+input[type="range"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+}
