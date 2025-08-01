@@ -1,8 +1,7 @@
-// src/components/Main.jsx
 import { useEffect, useState } from "react";
 import MovieDetail from "./MovieDetail";
 import MovieChart from "./chartParts/MovieChart";
-import CompanyFilter from "./CompanyFilter";
+import Filter from "./Filter";
 import MovieListFromMeta from "./MovieListFromMeta";
 import MovieFetcherFromList from "./MovieFetcherFromList";
 
@@ -35,16 +34,13 @@ export default function Main() {
 		<>
 			{/* フィルター設定UI */}
 			<div style={{ padding: "1rem", backgroundColor: "#fff", borderBottom: "1px solid #ddd", display: "flex", gap: "2rem", alignItems: "center" }}>
-				<div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-					<label>
-						抽出方法：
-						<select value={filterMethod} onChange={(e) => setFilterMethod(e.target.value)}>
-							<option value="random">ランダム30本</option>
-							<option value="popular">人気順30本</option>
-						</select>
-					</label>
-					<CompanyFilter filterCompany={filterCompany} setFilterCompany={setFilterCompany} availableCompanies={availableCompanies} />
-				</div>
+				<Filter
+					filterMethod={filterMethod}
+					setFilterMethod={setFilterMethod}
+					filterCompany={filterCompany}
+					setFilterCompany={setFilterCompany}
+					availableCompanies={availableCompanies}
+				/>
 			</div>
 
 
@@ -78,10 +74,21 @@ export default function Main() {
 
 				{/* 詳細パネル */}
 				{selectedMovie && (
-					<MovieDetail
-						movie={selectedMovie}
-						onClose={() => setSelectedMovie(null)}
-					/>
+					<div style={{
+						position: "absolute", // ここは absolute のままでOK
+						top: 0,
+						right: 0,
+						width: "500px",
+						height: "100%",
+						backgroundColor: "#fff",
+						boxShadow: "-4px 0px 10px rgba(0, 0, 0, 0.1)",
+						zIndex: 10 // z-index を追加して、チャートの上に表示されるようにする
+					}}>
+						<MovieDetail
+							movie={selectedMovie}
+							onClose={() => setSelectedMovie(null)}
+						/>
+					</div>
 				)}
 			</div>
 		</>
