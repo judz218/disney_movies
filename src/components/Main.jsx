@@ -4,6 +4,7 @@ import MovieChart from "./chartParts/MovieChart";
 import Filter from "./Filter";
 import MovieListFromMeta from "./MovieListFromMeta";
 import MovieFetcherFromList from "./MovieFetcherFromList";
+import MovieMeta from "../data/movie_meta.json";
 
 export default function Main() {
 	const [movieList, setMovieList] = useState(null);
@@ -14,21 +15,12 @@ export default function Main() {
 	const [filterCompany, setFilterCompany] = useState("all");
 
 	const [meta, setMeta] = useState([]);
-	const [availableCompanies, setAvailableCompanies] = useState([]);
 
 	const [isLoading, setIsLoading] = useState(false);
 
-	useEffect(() => {
-		fetch("src/data/movie_meta.json")
-			.then(res => res.json())
-			.then(json => {
-				setMeta(json);
-				const uniqueCompanies = [...new Set(
-					json.flatMap(m => m.companies || [])
-				)].sort();
-				setAvailableCompanies(uniqueCompanies);
-			});
-	}, []);
+	const availableCompanies = [...new Set(
+		MovieMeta.flatMap(m => m.companies || [])
+	)].sort();
 
 	return (
 		<>
