@@ -9,6 +9,7 @@ export default function MovieDetail({ movie, onClose }) {
     const runtime = movie.runtime ? `${movie.runtime} 分` : "情報なし";
     const popularity = movie.popularity;
     const posterSrc = isEnglishPoster ? movie.poster_en : movie.poster_ja;
+    const overview = movie.overview == "" ? "情報なし" : movie.overview;
 
     console.log(movie);
     return (
@@ -67,7 +68,7 @@ export default function MovieDetail({ movie, onClose }) {
 
             <h2>{movie.title}</h2>
             <p style={{ fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.title_en}）</p>
-            <p>{movie.overview}</p>
+            <p><strong>あらすじ：</strong>{overview}</p>
 
             <div style={{ marginTop: "2rem", fontSize: "14px", color: "#444" }}>
                 <p><strong>制作年：</strong>{releaseYear}</p>
