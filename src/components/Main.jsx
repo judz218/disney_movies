@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MovieDetail from "./MovieDetail";
 import MovieChart from "./chartParts/MovieChart";
 import Filter from "./Filter";
 import MovieListFromMeta from "./MovieListFromMeta";
 import MovieFetcherFromList from "./MovieFetcherFromList";
-import MovieMeta from "../../public/movie_meta.json";
+
 
 export default function Main() {
+	const [movieMeta, setMovieMeta] = useState([]);
+	const [availableCompanies, setAvailableCompanies] = useState();
 	const [movieList, setMovieList] = useState(null);
 	const [data, setData] = useState(null);
 	const [selectedMovie, setSelectedMovie] = useState(null);
@@ -14,13 +16,27 @@ export default function Main() {
 	const [filterMethod, setFilterMethod] = useState("random");
 	const [filterCompany, setFilterCompany] = useState("all");
 
-	const [meta, setMeta] = useState([]);
-
 	const [isLoading, setIsLoading] = useState(false);
 
-	const availableCompanies = [...new Set(
-		MovieMeta.flatMap(m => m.companies || [])
-	)].sort();
+	useEffect(() => {
+		(async () => {
+			try {
+				const response = await fetch("../../movie_meta.json");
+				if (!response.ok) {
+					throw new Error("映画データの取得に失敗しました");
+				}
+				const json = await response.json();
+				setMovieMeta(json);
+
+				const uniqueCompanes = [...new Set(
+					json.flatMap(m => m.companies || [])
+				)].sort();
+				setAvailableCompanies(uniqueCompanes);
+			} catch (error) {
+				console.log("エラー発生", error);
+			}
+		})();
+	}, []);
 
 	return (
 		<>
@@ -40,6 +56,7 @@ export default function Main() {
 			<div style={{ flex: 1, display: "flex", position: "relative", overflow: "hidden" }}>
 				<div style={{ flex: "1", padding: "1rem", overflowY: "auto" }}>
 					<MovieListFromMeta
+						movieMeta={movieMeta}
 						filterMethod={filterMethod}
 						filterCompany={filterCompany}
 						setMovieList={setMovieList}

@@ -7,9 +7,10 @@ export default function MovieDetail({ movie, onClose }) {
     const companies = movie.companies?.join(", ") || "情報なし";
     const releaseYear = movie.release_year || (movie.release_date?.split("-")[0] ?? "不明");
     const runtime = movie.runtime ? `${movie.runtime} 分` : "情報なし";
-
+    const popularity = movie.popularity;
     const posterSrc = isEnglishPoster ? movie.poster_en : movie.poster_ja;
 
+    console.log(movie);
     return (
         <div style={{
             position: "absolute",
@@ -72,7 +73,7 @@ export default function MovieDetail({ movie, onClose }) {
                 <p><strong>制作年：</strong>{releaseYear}</p>
                 <p><strong>制作会社：</strong>{companies}</p>
                 <p><strong>上映時間：</strong>{runtime}</p>
-                <p><strong>人気度（popularity）：</strong>{movie.popularity?.toFixed(1)}</p>
+                <p><strong>人気度（popularity）：</strong>{popularity}</p>
             </div>
         </div>
     );

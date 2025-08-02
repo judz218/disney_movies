@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import movieMeta from "../../public/movie_meta.json";
 
 // shuffle を先に定義する
 function shuffle(array) {
@@ -16,7 +15,7 @@ function classifyCompany(companies) {
     return "その他";
 }
 
-export default function MovieListFromMeta({ filterMethod, filterCompany, setMovieList }) {
+export default function MovieListFromMeta({ movieMeta, filterMethod, filterCompany, setMovieList }) {
     useEffect(() => {
         let filtered = [...movieMeta];
 
@@ -36,7 +35,7 @@ export default function MovieListFromMeta({ filterMethod, filterCompany, setMovi
         }
 
         setMovieList(filtered);
-    }, [filterMethod, filterCompany]);
+    }, [movieMeta, filterMethod, filterCompany]);
 
     return null;
 }
