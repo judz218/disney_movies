@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import MovieDetail from "./MovieDetail";
 import MovieChart from "./chartParts/MovieChart";
 import Filter from "./Filter";
 import MovieListFromMeta from "./MovieListFromMeta";
 import MovieFetcherFromList from "./MovieFetcherFromList";
-import MovieMeta from "../data/movie_meta.json";
+import MovieMeta from "../../public/movie_meta.json";
 
 export default function Main() {
 	const [movieList, setMovieList] = useState(null);

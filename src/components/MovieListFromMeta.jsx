@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import movieMeta from "../data/movie_meta.json";
+import movieMeta from "../../public/movie_meta.json";
 
 // shuffle を先に定義する
 function shuffle(array) {
