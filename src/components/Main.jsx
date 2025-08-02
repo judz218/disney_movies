@@ -53,7 +53,7 @@ export default function Main() {
 
 
 			{/* メイン画面 */}
-			<div style={{ flex: 1, display: "flex", position: "relative", overflow: "hidden" }}>
+			<div style={{ flex: 1, display: "flex", position: "relative" }}>
 				<div style={{ flex: "1", padding: "1rem", overflowY: "auto" }}>
 					<MovieListFromMeta
 						movieMeta={movieMeta}
