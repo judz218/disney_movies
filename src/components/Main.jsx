@@ -18,8 +18,14 @@ export default function Main() {
 
 	const [isLoading, setIsLoading] = useState(false);
 
-	const [w, setW] = useState(window.innerWidth);
-	const h = window.innerHeight;
+	// const [w, setW] = useState(window.innerWidth);
+	const h = window.innerHeight * 0.7;
+
+	const [windowSize, setWindowSize] = useState({
+		width: window.innerWidth,
+		height: h,
+	});
+
 
 	useEffect(() => {
 		(async () => {
@@ -40,6 +46,17 @@ export default function Main() {
 			}
 		})();
 	}, []);
+
+	useEffect(() => {
+		selectedMovie ? setWindowSize({ width: window.innerWidth * 0.7, height: h }) : setWindowSize({ width: window.innerWidth, height: h });
+		const handleResize = () => selectedMovie ? setWindowSize({ width: window.innerWidth * 0.7, height: h }) : setWindowSize({ width: window.innerWidth, height: h });
+		window.addEventListener('resize', handleResize);
+
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
+	}, [selectedMovie]);
+
 
 	return (
 		<>
@@ -78,11 +95,10 @@ export default function Main() {
 					) : data ? (
 						<MovieChart
 							data={data}
-							onMovieClick={setSelectedMovie}
+							setSelectedMovie={setSelectedMovie}
 							selectedMovie={selectedMovie}
-							w={w}
-							setW={setW}
-							h={h}
+							w={windowSize.width}
+							h={windowSize.height}
 						/>
 					) : (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>映画リストを読み込み中...</p>
@@ -95,17 +111,16 @@ export default function Main() {
 						position: "absolute", // ここは absolute のままでOK
 						top: 0,
 						right: 0,
-						width: "500px",
-						height: "100%",
+						width: windowSize.width * 0.3,
+						height: h,
 						backgroundColor: "#fff",
 						boxShadow: "-4px 0px 10px rgba(0, 0, 0, 0.1)",
-						zIndex: 10 // z-index を追加して、チャートの上に表示されるようにする
+						// zIndex: 10 // z-index を追加して、チャートの上に表示されるようにする
 					}}>
 						<MovieDetail
 							movie={selectedMovie}
 							onClose={() => {
 								setSelectedMovie(null);
-								setW(window.innerWidth)
 							}}
 						/>
 					</div>

@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import * as d3 from "d3";
 
-export default function Nodes({ data, w, h, padding, xScale, yScale, onClick, zoomK, selectedMovieId, setW }) {
+export default function Nodes({ data, w, h, padding, xScale, yScale, setSelectedMovie, zoomK, selectedMovieId }) {
     const [simData, setSimData] = useState([]);
     const [hoveredMovieId, setHoveredMovieId] = useState(null);
 
@@ -71,8 +71,7 @@ export default function Nodes({ data, w, h, padding, xScale, yScale, onClick, zo
                             clipPath: "circle(50%)"
                         }}
                         onClick={() => {
-                            onClick(d);
-                            setW(window.innerWidth - 700)
+                            setSelectedMovie(d);
                         }}
                         onMouseEnter={() => setHoveredMovieId(d.id)}
                         onMouseLeave={() => setHoveredMovieId(null)}

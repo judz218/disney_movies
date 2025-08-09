@@ -16,7 +16,7 @@ export default function MovieDetail({ movie, onClose }) {
             position: "absolute",
             top: 0,
             right: 0,
-            width: "500px",
+            // width: "30%",
             height: "100%",
             padding: "2rem", // パディングを増やす
             backgroundColor: "#fff", // 白い背景
