@@ -13,7 +13,6 @@ export default function Main() {
 	const [data, setData] = useState(null);
 	const [selectedMovie, setSelectedMovie] = useState(null);
 
-	const [filterMethod, setFilterMethod] = useState("random");
 	const [filterCompany, setFilterCompany] = useState("all");
 
 	const [isLoading, setIsLoading] = useState(false);
