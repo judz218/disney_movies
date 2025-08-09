@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import MovieDetail from "./MovieDetail";
 import MovieChart from "./chartParts/MovieChart";
 import Filter from "./Filter";
@@ -18,14 +18,13 @@ export default function Main() {
 
 	const [isLoading, setIsLoading] = useState(false);
 
-	// const [w, setW] = useState(window.innerWidth);
-	const h = window.innerHeight * 0.75;
 
 	const [windowSize, setWindowSize] = useState({
 		width: window.innerWidth,
-		height: h,
+		height: window.innerHeight * 0.77
 	});
 
+	const topRef = useRef(null);
 
 	useEffect(() => {
 		(async () => {
@@ -48,8 +47,8 @@ export default function Main() {
 	}, []);
 
 	useEffect(() => {
-		selectedMovie ? setWindowSize({ width: window.innerWidth * 0.7, height: h }) : setWindowSize({ width: window.innerWidth, height: h });
-		const handleResize = () => selectedMovie ? setWindowSize({ width: window.innerWidth * 0.7, height: h }) : setWindowSize({ width: window.innerWidth, height: h });
+		selectedMovie ? setWindowSize({ width: window.innerWidth * 0.7, height: window.innerHeight }) : setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+		const handleResize = () => selectedMovie ? setWindowSize({ width: window.innerWidth * 0.7, height: window.innerHeight }) : setWindowSize({ width: window.innerWidth, height: window.innerHeight });
 		window.addEventListener('resize', handleResize);
 
 		return () => {
@@ -59,7 +58,7 @@ export default function Main() {
 
 
 	return (
-		<>
+		<div>
 			{/* フィルター設定UI */}
 			<div style={{ padding: "1rem", backgroundColor: "#fff", borderBottom: "1px solid #ddd", display: "flex", gap: "2rem", alignItems: "center" }}>
 				<Filter
@@ -98,7 +97,8 @@ export default function Main() {
 							setSelectedMovie={setSelectedMovie}
 							selectedMovie={selectedMovie}
 							w={windowSize.width}
-							h={windowSize.height}
+							h={windowSize.height * 0.77}
+							topRef={topRef}
 						/>
 					) : (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>映画リストを読み込み中...</p>
@@ -108,24 +108,24 @@ export default function Main() {
 				{/* 詳細パネル */}
 				{selectedMovie && (
 					<div style={{
-						position: "absolute", // ここは absolute のままでOK
+						position: "absolute",
 						top: 0,
 						right: 0,
 						width: windowSize.width * 0.3,
-						height: h,
+						height: windowSize.height * 0.77,
 						backgroundColor: "#fff",
 						boxShadow: "-4px 0px 10px rgba(0, 0, 0, 0.1)",
-						// zIndex: 10 // z-index を追加して、チャートの上に表示されるようにする
 					}}>
 						<MovieDetail
 							movie={selectedMovie}
 							onClose={() => {
 								setSelectedMovie(null);
 							}}
+							topRef={topRef}
 						/>
 					</div>
 				)}
 			</div>
-		</>
+		</div>
 	);
 }

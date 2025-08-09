@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import Axes from "./Axes";
 import Nodes from "./Nodes";
 
-export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h }) {
+export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h, topRef }) {
     const padding = 80;
 
     const svgRef = useRef();
@@ -83,6 +83,7 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
                         setSelectedMovie={setSelectedMovie}
                         zoomK={zoomTransform.k}
                         selectedMovieId={selectedMovie?.id}
+                        topRef={topRef}
                     />
                 </g>
             </svg>

@@ -1,7 +1,7 @@
 // src/components/MovieDetail.jsx
 import { useState } from "react";
 
-export default function MovieDetail({ movie, onClose }) {
+export default function MovieDetail({ movie, onClose, topRef }) {
     const [isEnglishPoster, setIsEnglishPoster] = useState(false);
 
     const companies = movie.companies?.join(", ") || "情報なし";
@@ -11,19 +11,20 @@ export default function MovieDetail({ movie, onClose }) {
     const posterSrc = isEnglishPoster ? movie.poster_en : movie.poster_ja;
     const overview = movie.overview == "" ? "情報なし" : movie.overview;
 
+
     return (
-        <div style={{
-            position: "absolute",
-            top: 0,
-            right: 0,
-            // width: "30%",
-            height: "100%",
-            padding: "2rem", // パディングを増やす
-            backgroundColor: "#fff", // 白い背景
-            borderLeft: "1px solid #eee",
-            overflowY: "auto",
-            boxShadow: "-4px 0px 10px rgba(0, 0, 0, 0.1)" // 左側に影を追加
-        }}>
+        <div ref={topRef}
+            style={{
+                top: 0,
+                right: 0,
+                height: "100%",
+                padding: "2rem", // パディングを増やす
+                backgroundColor: "#fff", // 白い背景
+                borderLeft: "1px solid #eee",
+                overflowY: "auto",
+                boxShadow: "-4px 0px 10px rgba(0, 0, 0, 0.1)" // 左側に影を追加
+            }}>
+
             <button
                 onClick={onClose}
                 style={{
@@ -39,8 +40,8 @@ export default function MovieDetail({ movie, onClose }) {
                 }}
             >×</button>
 
-            <h2>{movie.title}</h2>
-            <p style={{ fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.title_en}）</p>
+            <h2 style={{ textAlign: "center" }}>{movie.title}</h2>
+            <p style={{ textAlign: "center", fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.title_en}）</p>
 
             <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
                 <img

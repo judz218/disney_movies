@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import * as d3 from "d3";
 
-export default function Nodes({ data, w, h, padding, xScale, yScale, setSelectedMovie, zoomK, selectedMovieId }) {
+export default function Nodes({ data, w, h, padding, xScale, yScale, setSelectedMovie, zoomK, selectedMovieId, topRef }) {
     const [simData, setSimData] = useState([]);
     const [hoveredMovieId, setHoveredMovieId] = useState(null);
 
@@ -36,6 +36,7 @@ export default function Nodes({ data, w, h, padding, xScale, yScale, setSelected
 
         setSimData(nodes);
     }, [data, w, h, padding, xScale, yScale]);
+
 
     return (
         <g>
@@ -72,6 +73,7 @@ export default function Nodes({ data, w, h, padding, xScale, yScale, setSelected
                         }}
                         onClick={() => {
                             setSelectedMovie(d);
+                            topRef.current ? topRef.current.scrollTop = 0 : null;
                         }}
                         onMouseEnter={() => setHoveredMovieId(d.id)}
                         onMouseLeave={() => setHoveredMovieId(null)}
