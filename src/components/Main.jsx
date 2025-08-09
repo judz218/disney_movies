@@ -19,7 +19,7 @@ export default function Main() {
 	const [isLoading, setIsLoading] = useState(false);
 
 	// const [w, setW] = useState(window.innerWidth);
-	const h = window.innerHeight * 0.7;
+	const h = window.innerHeight * 0.75;
 
 	const [windowSize, setWindowSize] = useState({
 		width: window.innerWidth,
@@ -74,7 +74,7 @@ export default function Main() {
 
 			{/* メイン画面 */}
 			<div style={{ flex: 1, display: "flex", position: "relative" }}>
-				<div style={{ flex: "1", padding: "1rem", overflowY: "auto" }}>
+				<div style={{ flex: "1", overflowY: "auto" }}>
 					<MovieListFromMeta
 						movieMeta={movieMeta}
 						filterMethod={filterMethod}
