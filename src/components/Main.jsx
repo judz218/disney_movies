@@ -68,7 +68,6 @@ export default function Main() {
 							movieList={movieList}
 							setData={setData}
 							setIsLoading={setIsLoading}
-							setSelectedMovie={setSelectedMovie}
 						/>
 					)}
 					{isLoading ? (

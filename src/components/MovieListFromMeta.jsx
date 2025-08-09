@@ -15,9 +15,10 @@ function classifyCompany(companies) {
     return "その他";
 }
 
-export default function MovieListFromMeta({ movieMeta, filterMethod, filterCompany, setMovieList }) {
+export default function MovieListFromMeta({ movieMeta, filterMethod, filterCompany, setMovieList, setSelectedMovie }) {
     useEffect(() => {
-        setSelectedMovie = { setSelectedMovie }
+        setSelectedMovie(null);
+
 
         let filtered = [...movieMeta];
 
