@@ -11,7 +11,6 @@ export default function MovieDetail({ movie, onClose }) {
     const posterSrc = isEnglishPoster ? movie.poster_en : movie.poster_ja;
     const overview = movie.overview == "" ? "情報なし" : movie.overview;
 
-    console.log(movie);
     return (
         <div style={{
             position: "absolute",
@@ -40,6 +39,9 @@ export default function MovieDetail({ movie, onClose }) {
                 }}
             >×</button>
 
+            <h2>{movie.title}</h2>
+            <p style={{ fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.title_en}）</p>
+
             <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
                 <img
                     src={posterSrc}
@@ -66,8 +68,7 @@ export default function MovieDetail({ movie, onClose }) {
                 </div>
             </div>
 
-            <h2>{movie.title}</h2>
-            <p style={{ fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.title_en}）</p>
+
             <p><strong>あらすじ：</strong>{overview}</p>
 
             <div style={{ marginTop: "2rem", fontSize: "14px", color: "#444" }}>

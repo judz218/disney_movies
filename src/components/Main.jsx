@@ -60,12 +60,15 @@ export default function Main() {
 						filterMethod={filterMethod}
 						filterCompany={filterCompany}
 						setMovieList={setMovieList}
+						setSelectedMovie={setSelectedMovie}
+
 					/>
 					{movieList && (
 						<MovieFetcherFromList
 							movieList={movieList}
 							setData={setData}
 							setIsLoading={setIsLoading}
+							setSelectedMovie={setSelectedMovie}
 						/>
 					)}
 					{isLoading ? (

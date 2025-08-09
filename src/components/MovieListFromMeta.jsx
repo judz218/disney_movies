@@ -17,6 +17,8 @@ function classifyCompany(companies) {
 
 export default function MovieListFromMeta({ movieMeta, filterMethod, filterCompany, setMovieList }) {
     useEffect(() => {
+        setSelectedMovie = { setSelectedMovie }
+
         let filtered = [...movieMeta];
 
         // カテゴリ付与

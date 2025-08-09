@@ -3,7 +3,7 @@ import { MoviesScore } from "./MovieScorer";
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
-export default function MovieFetcherFromList({ movieList, setData, setIsLoading }) {
+export default function MovieFetcherFromList({ movieList, setData, setIsLoading, setSelectedMovie }) {
     useEffect(() => {
         if (!movieList) return;
 
