@@ -18,6 +18,9 @@ export default function Main() {
 
 	const [isLoading, setIsLoading] = useState(false);
 
+	const [w, setW] = useState(window.innerWidth);
+	const h = window.innerHeight;
+
 	useEffect(() => {
 		(async () => {
 			try {
@@ -77,6 +80,9 @@ export default function Main() {
 							data={data}
 							onMovieClick={setSelectedMovie}
 							selectedMovie={selectedMovie}
+							w={w}
+							setW={setW}
+							h={h}
 						/>
 					) : (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>映画リストを読み込み中...</p>
@@ -97,7 +103,10 @@ export default function Main() {
 					}}>
 						<MovieDetail
 							movie={selectedMovie}
-							onClose={() => setSelectedMovie(null)}
+							onClose={() => {
+								setSelectedMovie(null);
+								setW(window.innerWidth)
+							}}
 						/>
 					</div>
 				)}

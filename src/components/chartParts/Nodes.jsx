@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import * as d3 from "d3";
 
-export default function Nodes({ data, w, h, padding, xScale, yScale, onClick, zoomK, selectedMovieId }) {
+export default function Nodes({ data, w, h, padding, xScale, yScale, onClick, zoomK, selectedMovieId, setW }) {
     const [simData, setSimData] = useState([]);
     const [hoveredMovieId, setHoveredMovieId] = useState(null);
 
@@ -72,6 +72,7 @@ export default function Nodes({ data, w, h, padding, xScale, yScale, onClick, zo
                         }}
                         onClick={() => {
                             onClick(d);
+                            setW(window.innerWidth - 700)
                         }}
                         onMouseEnter={() => setHoveredMovieId(d.id)}
                         onMouseLeave={() => setHoveredMovieId(null)}
