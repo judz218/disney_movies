@@ -1,10 +1,5 @@
 import { useEffect } from "react";
 
-// shuffle を先に定義する
-function shuffle(array) {
-    return [...array].sort(() => Math.random() - 0.5);
-}
-
 // 会社分類関数
 function classifyCompany(companies) {
     if (!companies || companies.length === 0) return "その他";
@@ -15,7 +10,7 @@ function classifyCompany(companies) {
     return "その他";
 }
 
-export default function MovieListFromMeta({ movieMeta, filterMethod, filterCompany, setMovieList, setSelectedMovie }) {
+export default function MovieListFromMeta({ movieMeta, filterCompany, setMovieList, setSelectedMovie }) {
     useEffect(() => {
         setSelectedMovie(null);
 
@@ -31,14 +26,9 @@ export default function MovieListFromMeta({ movieMeta, filterMethod, filterCompa
             filtered = filtered.filter(d => d.category === filterCompany);
         }
 
-        if (filterMethod === "popular") {
-            filtered = filtered.sort((a, b) => b.popularity - a.popularity).slice(0, 30);
-        } else if (filterMethod === "random") {
-            filtered = shuffle(filtered).slice(0, 100);
-        }
 
         setMovieList(filtered);
-    }, [movieMeta, filterMethod, filterCompany]);
+    }, [movieMeta, filterCompany]);
 
     return null;
 }

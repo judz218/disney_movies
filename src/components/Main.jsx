@@ -62,11 +62,8 @@ export default function Main() {
 			{/* フィルター設定UI */}
 			<div style={{ padding: "1rem", backgroundColor: "#fff", borderBottom: "1px solid #ddd", display: "flex", gap: "2rem", alignItems: "center" }}>
 				<Filter
-					filterMethod={filterMethod}
-					setFilterMethod={setFilterMethod}
 					filterCompany={filterCompany}
 					setFilterCompany={setFilterCompany}
-					availableCompanies={availableCompanies}
 				/>
 			</div>
 
@@ -76,7 +73,6 @@ export default function Main() {
 				<div style={{ flex: "1", overflowY: "auto" }}>
 					<MovieListFromMeta
 						movieMeta={movieMeta}
-						filterMethod={filterMethod}
 						filterCompany={filterCompany}
 						setMovieList={setMovieList}
 						setSelectedMovie={setSelectedMovie}
