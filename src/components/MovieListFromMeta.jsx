@@ -31,7 +31,7 @@ export default function MovieListFromMeta({ movieMeta, filterMethod, filterCompa
         if (filterMethod === "popular") {
             filtered = filtered.sort((a, b) => b.popularity - a.popularity).slice(0, 30);
         } else if (filterMethod === "random") {
-            filtered = shuffle(filtered).slice(0, 30);
+            filtered = shuffle(filtered).slice(0, 100);
         }
 
         setMovieList(filtered);

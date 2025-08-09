@@ -4,8 +4,8 @@ import Axes from "./Axes";
 import Nodes from "./Nodes";
 
 export default function MovieChart({ data, onMovieClick, selectedMovie }) {
-    const w = 800;
-    const h = 800;
+    const w = window.innerWidth;
+    const h = window.innerHeight;
     const padding = 80;
 
     const svgRef = useRef();

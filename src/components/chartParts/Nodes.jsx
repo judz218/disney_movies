@@ -68,8 +68,7 @@ export default function Nodes({ data, w, h, padding, xScale, yScale, onClick, zo
                             stroke: isSelected ? "#ff0000" : isHovered ? "#007bff" : "none",
                             strokeWidth: isSelected ? 4 : isHovered ? 2 : 0,
                             filter: filter,
-                            // SVGではz-indexがないため、選択・ホバーされたノードを最後に描画する
-                            // ここではシンプルに描画順で対応
+                            clipPath: "circle(50%)"
                         }}
                         onClick={() => {
                             onClick(d);
