@@ -14,13 +14,11 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
 
     const xScale = d3.scaleLinear()
         .domain([d3.min(data, d => d.x), d3.max(data, d => d.x)])
-        .range([padding, w - padding])
-        .nice();
+        .range([padding, w - padding]);
 
     const yScale = d3.scaleLinear()
         .domain([d3.min(data, d => d.y), d3.max(data, d => d.y)])
-        .range([h - padding, padding])
-        .nice();
+        .range([h - padding, padding]);
 
     useEffect(() => {
         const zoom = d3.zoom()
@@ -59,7 +57,7 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
 
     return (
         <div>
-            <div style={{ margin: "0.5rem 0" }}>
+            <div style={{ margin: "1rem 2rem" }}>
                 <label>
                     ズーム倍率: {zoomTransform.k.toFixed(2)}&nbsp;
                     <input
@@ -69,7 +67,7 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
                         step="0.01"
                         value={zoomTransform.k}
                         onChange={handleZoomSlider}
-                        style={{ width: "300px" }}
+                        style={{ marginTop: "5px", width: "300px" }}
                     />
                 </label>
                 <button onClick={resetZoom} style={{ marginLeft: "1rem", padding: "0.3rem 0.6rem" }}>

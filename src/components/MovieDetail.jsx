@@ -5,12 +5,14 @@ export default function MovieDetail({ movie, onClose, topRef }) {
     const [isEnglishPoster, setIsEnglishPoster] = useState(false);
 
     const companies =
-        movie.companies?.map(company => company.name).join(", ") || "情報なし";
+        movie.companies.join(", ") || "情報なし";
     const releaseYear = movie.release_year || (movie.release_date?.split("-")[0] ?? "不明");
     const runtime = movie.runtime ? `${movie.runtime} 分` : "情報なし";
     const popularity = movie.popularity;
-    const posterSrc = isEnglishPoster ? movie.poster_en : movie.poster_ja;
-    const overview = movie.overview == "" ? "情報なし" : movie.overview;
+    const posterSrc = isEnglishPoster ? movie.posterEn : movie.posterJa;
+    const overview = movie.overviewJa == "" ? "情報なし" : movie.overviewJa;
+
+    const video = movie.video == "" ? "情報なし" : movie.video;
 
 
     console.log(movie);
@@ -42,8 +44,8 @@ export default function MovieDetail({ movie, onClose, topRef }) {
                 }}
             >×</button>
 
-            <h2 style={{ textAlign: "center" }}>{movie.title}</h2>
-            <p style={{ textAlign: "center", fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.title_en}）</p>
+            <h2 style={{ textAlign: "center" }}>{movie.titleJa}</h2>
+            <p style={{ textAlign: "center", fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.titleEn}）</p>
 
             <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
                 <img
