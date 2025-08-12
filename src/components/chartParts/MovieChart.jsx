@@ -8,7 +8,7 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
 
     const svgRef = useRef();
     const gRef = useRef();
-    const zoomObjRef = useRef(); // ← useRef に変更
+    const zoomObjRef = useRef();
 
     const [zoomTransform, setZoomTransform] = useState(d3.zoomIdentity);
 

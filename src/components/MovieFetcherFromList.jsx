@@ -9,23 +9,21 @@ export default function MovieFetcherFromList({ movieList, setData, setIsLoading 
         if (!movieList) return;
 
         setIsLoading(true);
-        setData(null);
 
         (async () => {
             const result = await Promise.all(
                 movieList.map(async (movie) => {
                     try {
-                        // 検索
-                        const searchRes = await fetch(
-                            `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(movie.title)}&year=${movie.release_year}`
-                        );
-                        const searchJson = await searchRes.json();
-                        const tmdbMovie = searchJson.results?.[0];
-                        if (!tmdbMovie) return null;
+                        // const searchRes = await fetch(
+                        //     `https://api.themoviedb.org/3/movie/${movie.id}?api_key=${API_KEY}`
+                        // );
+                        // const jsonData = await searchRes.json();
+                        // const tmdbMovie = searchJson.results?.[0];
+                        // if (!tmdbMovie) return null;
 
                         // 日本語データ取得（overview など）
                         const jaRes = await fetch(
-                            `https://api.themoviedb.org/3/movie/${tmdbMovie.id}?api_key=${API_KEY}&language=ja`
+                            `https://api.themoviedb.org/3/movie/${movie.id}?api_key=${API_KEY}&language=ja`
                         );
                         const jaDetail = await jaRes.json();
 
@@ -33,33 +31,37 @@ export default function MovieFetcherFromList({ movieList, setData, setIsLoading 
 
                         // 英語データ取得（title_en, poster 用）
                         const enRes = await fetch(
-                            `https://api.themoviedb.org/3/movie/${tmdbMovie.id}?api_key=${API_KEY}&language=en-US`
+                            `https://api.themoviedb.org/3/movie/${movie.id}?api_key=${API_KEY}&language=en-US`
                         );
                         const enDetail = await enRes.json();
 
                         // キーワード取得（スコア用）
-                        const keywordRes = await fetch(
-                            `https://api.themoviedb.org/3/movie/${tmdbMovie.id}/keywords?api_key=${API_KEY}`
-                        );
-                        const keywordData = await keywordRes.json();
-                        const keywords = (keywordData.keywords || []).map(k => k.name.toLowerCase());
+                        // const keywordRes = await fetch(
+                        //     `https://api.themoviedb.org/3/movie/${tmdbMovie.id}/keywords?api_key=${API_KEY}`
+                        // );
+                        // const keywordData = await keywordRes.json();
+                        // const keywords = (keywordData.keywords || []).map(k => k.name.toLowerCase());
 
-                        const score = MoviesScore(enDetail, keywords); // スコアは英語ベース
+                        // const score = MoviesScore(enDetail, keywords); // スコアは英語ベース
 
                         return {
-                            id: tmdbMovie.id,
+                            id: movie.id,
                             title: jaDetail.title,
+                            title_en: enDetail.title,
                             overview: jaDetail.overview,
                             popularity: jaDetail.popularity,
                             genres: jaDetail.genres.map(g => g.name.toLowerCase()),
                             runtime: jaDetail.runtime,
                             release_date: jaDetail.release_date,
-                            title_en: enDetail.title,
+                            homepage: jaDetail.homepage,
                             posterThumb: `https://image.tmdb.org/t/p/w200${jaDetail.poster_path}`,
                             poster_en: `https://image.tmdb.org/t/p/w500${enDetail.poster_path}`,
-                            poster_ja: `https://image.tmdb.org/t/p/w500${jaDetail.poster_path}`, companies: movie.companies,
-                            release_year: movie.release_year,
-                            score,
+                            poster_ja: `https://image.tmdb.org/t/p/w500${jaDetail.poster_path}`,
+                            companies: jaDetail.production_companies,
+                            // release_year: movie.release_year,
+                            // score,
+                            x: movie.x,
+                            y: movie.y,
                         };
                     } catch (e) {
                         console.error("Error fetching TMDB info", e);
@@ -67,8 +69,7 @@ export default function MovieFetcherFromList({ movieList, setData, setIsLoading 
                     }
                 })
             );
-
-            setData(result.filter(d => d !== null));
+            setData(result);
             setIsLoading(false);
         })();
     }, [movieList]);

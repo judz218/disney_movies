@@ -28,17 +28,12 @@ export default function Main() {
 	useEffect(() => {
 		(async () => {
 			try {
-				const response = await fetch("../../movie_meta.json");
+				const response = await fetch("../../fast1.json");
 				if (!response.ok) {
 					throw new Error("映画データの取得に失敗しました");
 				}
 				const json = await response.json();
-				setMovieMeta(json);
-
-				const uniqueCompanes = [...new Set(
-					json.flatMap(m => m.companies || [])
-				)].sort();
-				setAvailableCompanies(uniqueCompanes);
+				setMovieList(json);
 			} catch (error) {
 				console.log("エラー発生", error);
 			}
@@ -59,34 +54,32 @@ export default function Main() {
 	return (
 		<div>
 			{/* フィルター設定UI */}
-			<div style={{ padding: "1rem", backgroundColor: "#fff", borderBottom: "1px solid #ddd", display: "flex", gap: "2rem", alignItems: "center" }}>
+			{/* <div style={{ padding: "1rem", backgroundColor: "#fff", borderBottom: "1px solid #ddd", display: "flex", gap: "2rem", alignItems: "center" }}>
 				<Filter
 					filterCompany={filterCompany}
 					setFilterCompany={setFilterCompany}
 				/>
-			</div>
+			</div> */}
 
 
 			{/* メイン画面 */}
 			<div style={{ flex: 1, display: "flex", position: "relative" }}>
 				<div style={{ flex: "1", overflowY: "auto" }}>
-					<MovieListFromMeta
+					{/* <MovieListFromMeta
 						movieMeta={movieMeta}
-						filterCompany={filterCompany}
+						// filterCompany={filterCompany}
 						setMovieList={setMovieList}
 						setSelectedMovie={setSelectedMovie}
 
+					/> */}
+					<MovieFetcherFromList
+						movieList={movieList}
+						setData={setData}
+						setIsLoading={setIsLoading}
 					/>
-					{movieList && (
-						<MovieFetcherFromList
-							movieList={movieList}
-							setData={setData}
-							setIsLoading={setIsLoading}
-						/>
-					)}
 					{isLoading ? (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>読み込み中...</p>
-					) : data ? (
+					) : (
 						<MovieChart
 							data={data}
 							setSelectedMovie={setSelectedMovie}
@@ -95,12 +88,10 @@ export default function Main() {
 							h={windowSize.height * 0.77}
 							topRef={topRef}
 						/>
-					) : (
-						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>映画リストを読み込み中...</p>
 					)}
 				</div>
 
-				{/* 詳細パネル */}
+				{/* 詳細パネル
 				{selectedMovie && (
 					<div style={{
 						position: "absolute",
@@ -119,7 +110,7 @@ export default function Main() {
 							topRef={topRef}
 						/>
 					</div>
-				)}
+				)} */}
 			</div>
 		</div>
 	);
