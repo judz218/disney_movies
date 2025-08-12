@@ -17,6 +17,7 @@ export default function Nodes({ data, w, h, padding, xScale, yScale, setSelected
 
         const simulation = d3.forceSimulation(nodes)
             .force("x", d3.forceX(d => xScale(d.score.x)).strength(0.5))
+            // .force("x", d3.forceX(d => xScale(d.release_date)).strength(0.5))
             .force("y", d3.forceY(d => yScale(d.score.y)).strength(0.5))
             .force("collide", d3.forceCollide(d => (rScale(d.popularity) / 2 || 20) + 8))
             .stop();

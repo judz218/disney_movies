@@ -17,6 +17,12 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
         .range([padding, w - padding])
         .nice();
 
+
+    // const xScale = d3.scaleLinear()
+    //     .domain([d3.min(data, d => d.release_date), d3.max(data, d => d.release_date)])
+    //     .range([padding, w - padding])
+    //     .nice();
+
     const yScale = d3.scaleLinear()
         .domain([d3.min(data, d => d.score.y), d3.max(data, d => d.score.y)])
         .range([h - padding, padding])
