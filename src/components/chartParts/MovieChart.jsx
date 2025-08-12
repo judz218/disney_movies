@@ -23,6 +23,10 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
     useEffect(() => {
         const zoom = d3.zoom()
             .scaleExtent([0.5, 4])
+            .translateExtent([
+                [0, 0],
+                [w, h]
+            ])
             .on("zoom", (event) => {
                 setZoomTransform(event.transform);
                 d3.select(gRef.current).attr("transform", event.transform);
