@@ -9,6 +9,7 @@ import MovieFetcherFromList from "./MovieFetcherFromList";
 export default function Main() {
 	const [movieMeta, setMovieMeta] = useState([]);
 	const [availableCompanies, setAvailableCompanies] = useState();
+
 	const [movieList, setMovieList] = useState(null);
 	const [data, setData] = useState(null);
 	const [selectedMovie, setSelectedMovie] = useState(null);
@@ -28,12 +29,27 @@ export default function Main() {
 	useEffect(() => {
 		(async () => {
 			try {
-				const response = await fetch("../../fast1.json");
-				if (!response.ok) {
+				const fastData = await fetch("../../fast2.json");
+				if (!fastData.ok) {
 					throw new Error("映画データの取得に失敗しました");
 				}
-				const json = await response.json();
-				setMovieList(json);
+				const fastJson = await fastData.json();
+
+				const movieData = await fetch("../../movie_text.json");
+				if (!movieData.ok) {
+					throw new Error("映画データの取得に失敗しました");
+				}
+				const movieJson = await movieData.json();
+
+				const data = fastJson.map((d) => {
+					movieJson.map((m) => {
+						if (m.id === d.id) {
+							return { ...d, ...m };
+						}
+					})
+				})
+				setData(data);
+
 			} catch (error) {
 				console.log("エラー発生", error);
 			}
@@ -72,12 +88,12 @@ export default function Main() {
 						setSelectedMovie={setSelectedMovie}
 
 					/> */}
-					<MovieFetcherFromList
+					{/* <MovieFetcherFromList
 						movieList={movieList}
 						setData={setData}
 						setIsLoading={setIsLoading}
-					/>
-					{isLoading ? (
+					/> */}
+					{movieList ? (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>読み込み中...</p>
 					) : data ? (
 						<MovieChart

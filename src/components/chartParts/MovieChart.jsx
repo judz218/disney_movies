@@ -4,7 +4,7 @@ import Axes from "./Axes";
 import Nodes from "./Nodes";
 
 export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h, topRef }) {
-    const padding = 80;
+    const padding = 20;
 
     const svgRef = useRef();
     const gRef = useRef();
