@@ -10,7 +10,13 @@ function classifyCompany(companies) {
     return "その他";
 }
 
+function shuffle(array) {
+    return [...array].sort(() => Math.random() - 0.5);
+}
+
 export default function MovieListFromMeta({ movieMeta, filterCompany, setMovieList, setSelectedMovie }) {
+    const num = 50;
+
     useEffect(() => {
         setSelectedMovie(null);
 
@@ -26,6 +32,7 @@ export default function MovieListFromMeta({ movieMeta, filterCompany, setMovieLi
             filtered = filtered.filter(d => d.category === filterCompany);
         }
 
+        filtered = shuffle(filtered).slice(0, num);
 
         setMovieList(filtered);
     }, [movieMeta, filterCompany]);
