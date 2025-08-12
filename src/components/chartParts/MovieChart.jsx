@@ -13,18 +13,12 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
     const [zoomTransform, setZoomTransform] = useState(d3.zoomIdentity);
 
     const xScale = d3.scaleLinear()
-        .domain([d3.min(data, d => d.score.x), d3.max(data, d => d.score.x)])
+        .domain([d3.min(data, d => d.x), d3.max(data, d => d.x)])
         .range([padding, w - padding])
         .nice();
 
-
-    // const xScale = d3.scaleLinear()
-    //     .domain([d3.min(data, d => d.release_date), d3.max(data, d => d.release_date)])
-    //     .range([padding, w - padding])
-    //     .nice();
-
     const yScale = d3.scaleLinear()
-        .domain([d3.min(data, d => d.score.y), d3.max(data, d => d.score.y)])
+        .domain([d3.min(data, d => d.y), d3.max(data, d => d.y)])
         .range([h - padding, padding])
         .nice();
 
@@ -41,7 +35,7 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
             });
 
         d3.select(svgRef.current).call(zoom);
-        zoomObjRef.current = zoom; // ← useRef に保持
+        zoomObjRef.current = zoom;
     }, []);
 
     const handleZoomSlider = (e) => {

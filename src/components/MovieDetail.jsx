@@ -4,7 +4,8 @@ import { useState } from "react";
 export default function MovieDetail({ movie, onClose, topRef }) {
     const [isEnglishPoster, setIsEnglishPoster] = useState(false);
 
-    const companies = movie.companies?.join(", ") || "情報なし";
+    const companies =
+        movie.companies?.map(company => company.name).join(", ") || "情報なし";
     const releaseYear = movie.release_year || (movie.release_date?.split("-")[0] ?? "不明");
     const runtime = movie.runtime ? `${movie.runtime} 分` : "情報なし";
     const popularity = movie.popularity;
@@ -12,6 +13,7 @@ export default function MovieDetail({ movie, onClose, topRef }) {
     const overview = movie.overview == "" ? "情報なし" : movie.overview;
 
 
+    console.log(movie);
     return (
         <div ref={topRef}
             style={{

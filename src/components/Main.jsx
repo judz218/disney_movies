@@ -79,7 +79,7 @@ export default function Main() {
 					/>
 					{isLoading ? (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>読み込み中...</p>
-					) : (
+					) : data ? (
 						<MovieChart
 							data={data}
 							setSelectedMovie={setSelectedMovie}
@@ -88,10 +88,12 @@ export default function Main() {
 							h={windowSize.height * 0.77}
 							topRef={topRef}
 						/>
+					) : (
+						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>映画リストを読み込み中...</p>
 					)}
 				</div>
 
-				{/* 詳細パネル
+				{/* 詳細パネル */}
 				{selectedMovie && (
 					<div style={{
 						position: "absolute",
@@ -110,7 +112,7 @@ export default function Main() {
 							topRef={topRef}
 						/>
 					</div>
-				)} */}
+				)}
 			</div>
 		</div>
 	);
