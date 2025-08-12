@@ -1,8 +1,12 @@
 // src/components/MovieDetail.jsx
 import { useState } from "react";
+import Video from "./Video";
+import ReactPlayer from "react-player";
 
 export default function MovieDetail({ movie, onClose, topRef }) {
     const [isEnglishPoster, setIsEnglishPoster] = useState(false);
+
+    const [click, setClick] = useState(false);
 
     const companies =
         movie.companies.join(", ") || "情報なし";
@@ -14,8 +18,6 @@ export default function MovieDetail({ movie, onClose, topRef }) {
 
     const video = movie.video == "" ? "情報なし" : movie.video;
 
-
-    console.log(movie);
     return (
         <div ref={topRef}
             style={{
@@ -48,19 +50,35 @@ export default function MovieDetail({ movie, onClose, topRef }) {
             <p style={{ textAlign: "center", fontSize: "14px", color: "#666", marginBottom: "1rem" }}>（英語タイトル: {movie.titleEn}）</p>
 
             <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
-                <img
-                    src={posterSrc}
-                    alt={movie.title}
-                    style={{
-                        width: "80%",
-                        borderRadius: "8px",
-                        marginBottom: "1rem",
-                        boxShadow: "0 4px 8px rgba(0,0,0,0.2)" // ポスターにも影
-                    }}
-                />
+
+                {click ?
+                    <ReactPlayer
+                        src={movie.video}
+                        width="100%"
+                        height="100%"
+                        muted
+                        playsinline
+                        playing={true}
+                        loop={false}
+                        controls={true}
+                    /> :
+                    <img
+                        src={posterSrc}
+                        alt={movie.title}
+                        style={{
+                            width: "80%",
+                            borderRadius: "8px",
+                            marginBottom: "1rem",
+                            boxShadow: "0 4px 8px rgba(0,0,0,0.2)" // ポスターにも影
+                        }}
+                    />
+                }
+
                 <div>
                     <button
-                        onClick={() => setIsEnglishPoster(!isEnglishPoster)}
+                        onClick={() => {
+                            setIsEnglishPoster(!isEnglishPoster);
+                        }}
                         style={{
                             padding: "0.5rem 1rem",
                             fontSize: "14px",
@@ -69,6 +87,11 @@ export default function MovieDetail({ movie, onClose, topRef }) {
                         }}
                     >
                         ポスターを{isEnglishPoster ? "日本語" : "英語"}に切り替え
+                    </button>
+                    <button
+                        onClick={() => setClick(true)}
+                    >
+                        動画
                     </button>
                 </div>
             </div>
