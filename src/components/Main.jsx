@@ -106,10 +106,10 @@ export default function Main() {
 						position: "absolute",
 						top: 0,
 						right: 0,
-						width: windowSize.width * 0.3,
+						width: window.innerWidth - windowSize.width,
 						height: windowSize.height * 0.77,
 						backgroundColor: "#fff",
-						boxShadow: "-4px 0px 10px rgba(0, 0, 0, 0.1)",
+						boxShadow: "-4px 0px 10px rgba(87, 68, 68, 0.1)",
 					}}>
 						<MovieDetail
 							movie={selectedMovie}
