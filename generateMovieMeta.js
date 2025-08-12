@@ -6,7 +6,7 @@ dotenv.config();
 
 const API_KEY = process.env.VITE_TMDB_API_KEY;
 const INPUT_CSV_PATH = "./public/disney_plus_titles.csv";
-const OUTPUT_JSON_PATH = "./src/data/movie_meta.json";
+const OUTPUT_JSON_PATH = "./src/data/movie_text.json";
 
 // CSVを読み込む
 const rawCsv = fs.readFileSync(INPUT_CSV_PATH, "utf-8");
@@ -37,6 +37,13 @@ for (const movie of movies) {
     );
     const detail = await detailRes.json();
 
+    const keywordRes = await fetch(
+      `https://api.themoviedb.org/3/movie/${tmdbMovie.id}/keywords?api_key=${API_KEY}&language=en-US`
+    );
+    const keywords = await keywordRes.json();
+
+    // console.log(keywords);
+
     // popularityが1未満の場合はスキップ
     if (!detail || detail.popularity < 1) continue;
 
@@ -44,8 +51,12 @@ for (const movie of movies) {
       title,
       release_year,
       id: detail.id,
-      popularity: detail.popularity,
-      companies: (detail.production_companies || []).map((c) => c.name),
+      genres: detail.genres,
+      overview: detail.overview,
+      keywords: keywords.keywords,
+
+      // popularity: detail.popularity,
+      // companies: (detail.production_companies || []).map((c) => c.name),
     });
 
     console.log(`ok ${title} (${release_year})`);
