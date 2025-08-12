@@ -94,9 +94,9 @@ export default function Main() {
 						setData={setData}
 						setIsLoading={setIsLoading}
 					/> */}
-					{movieList ? (
+					{!data ? (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>読み込み中...</p>
-					) : data ? (
+					) :
 						<MovieChart
 							data={data}
 							setSelectedMovie={setSelectedMovie}
@@ -105,9 +105,7 @@ export default function Main() {
 							h={windowSize.height * 0.77}
 							topRef={topRef}
 						/>
-					) : (
-						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>映画リストを読み込み中...</p>
-					)}
+					}
 				</div>
 
 				{/* 詳細パネル */}
