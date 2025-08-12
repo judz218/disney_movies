@@ -41,14 +41,14 @@ export default function Main() {
 				}
 				const movieJson = await movieData.json();
 
-				const data = fastJson.map((d) => {
+				const d = fastJson.map((f) =>
 					movieJson.map((m) => {
-						if (m.id === d.id) {
-							return { ...d, ...m };
+						if (m.id == f.id) {
+							return { ...f, ...m };
 						}
 					})
-				})
-				setData(data);
+				).flat().filter(Boolean);
+				setData(d);
 
 			} catch (error) {
 				console.log("エラー発生", error);
@@ -67,6 +67,7 @@ export default function Main() {
 	}, [selectedMovie]);
 
 
+	console.log("d", data);
 	return (
 		<div>
 			{/* フィルター設定UI */}
