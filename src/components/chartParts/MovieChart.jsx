@@ -14,11 +14,13 @@ export default function MovieChart({ data, setSelectedMovie, selectedMovie, w, h
 
     const xScale = d3.scaleLinear()
         .domain([d3.min(data, d => d.score.x), d3.max(data, d => d.score.x)])
-        .range([padding, w - padding]);
+        .range([padding, w - padding])
+        .nice();
 
     const yScale = d3.scaleLinear()
         .domain([d3.min(data, d => d.score.y), d3.max(data, d => d.score.y)])
-        .range([h - padding, padding]);
+        .range([h - padding, padding])
+        .nice();
 
     useEffect(() => {
         const zoom = d3.zoom()
