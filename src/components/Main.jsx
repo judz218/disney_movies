@@ -7,16 +7,8 @@ import MovieFetcherFromList from "./MovieFetcherFromList";
 
 
 export default function Main() {
-	const [movieMeta, setMovieMeta] = useState([]);
-	const [availableCompanies, setAvailableCompanies] = useState();
-
-	const [movieList, setMovieList] = useState(null);
 	const [data, setData] = useState(null);
 	const [selectedMovie, setSelectedMovie] = useState(null);
-
-	const [filterCompany, setFilterCompany] = useState("all");
-
-	const [isLoading, setIsLoading] = useState(false);
 
 
 	const [windowSize, setWindowSize] = useState({
@@ -68,30 +60,9 @@ export default function Main() {
 
 	return (
 		<div>
-			{/* フィルター設定UI */}
-			{/* <div style={{ padding: "1rem", backgroundColor: "#fff", borderBottom: "1px solid #ddd", display: "flex", gap: "2rem", alignItems: "center" }}>
-				<Filter
-					filterCompany={filterCompany}
-					setFilterCompany={setFilterCompany}
-				/>
-			</div> */}
-
-
 			{/* メイン画面 */}
 			<div style={{ flex: 1, display: "flex", position: "relative" }}>
 				<div style={{ flex: "1", overflowY: "auto" }}>
-					{/* <MovieListFromMeta
-						movieMeta={movieMeta}
-						// filterCompany={filterCompany}
-						setMovieList={setMovieList}
-						setSelectedMovie={setSelectedMovie}
-
-					/> */}
-					{/* <MovieFetcherFromList
-						movieList={movieList}
-						setData={setData}
-						setIsLoading={setIsLoading}
-					/> */}
 					{!data ? (
 						<p style={{ textAlign: "center", padding: "2rem", fontSize: "1.2rem" }}>読み込み中...</p>
 					) :
