@@ -1,0 +1,179 @@
+/* src/components/MovieDetail.module.css */
+
+/* CSS変数を定義して、色やスペースを一括管理 */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --text-color: #333;
+  --light-gray: #eee;
+  --background-color: #f8f9fa;
+  --white: #fff;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-xl: 2rem;
+}
+
+.movieDetailPanel {
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: var(--spacing-xl);
+  background-color: var(--white);
+  border-left: 1px solid var(--light-gray);
+  overflow-y: auto;
+  box-shadow: -4px 0px 10px var(--shadow);
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: var(--spacing-medium);
+  right: var(--spacing-medium);
+  background: transparent;
+  color: var(--secondary-color);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.closeButton:hover {
+  opacity: 1;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: var(--spacing-small);
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-large);
+}
+
+.mediaContainer {
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+}
+
+.videoWrapper {
+  /* 動画プレイヤーのコンテナ */
+  position: relative;
+  padding-top: 56.25%; /* 16:9のアスペクト比 */
+  height: 0;
+}
+
+.videoWrapper .reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: var(--border-radius);
+  overflow: hidden; /* 角丸を適用 */
+}
+
+.posterWrapper {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  max-width: 300px;
+}
+
+.posterImage {
+  width: 100%;
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-medium);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-small);
+  margin-top: var(--spacing-small);
+}
+
+.posterToggleButton,
+.playButton,
+.posterButton {
+  padding: var(--spacing-small) var(--spacing-medium);
+  font-size: 0.875rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.posterToggleButton {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.posterToggleButton:hover {
+  background-color: #5a6268;
+}
+
+.playButton {
+  /* 再生ボタンのスタイル */
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.playButton:hover {
+  background-color: #0056b3;
+}
+
+.posterButton {
+  /* 「ポスターに戻る」ボタンのスタイル */
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.posterButton:hover {
+  background-color: #0056b3;
+}
+
+.noVideoMessage {
+  color: var(--secondary-color);
+  font-size: 0.875rem;
+  margin-top: var(--spacing-medium);
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-small);
+  border-bottom: 2px solid var(--light-gray);
+  padding-bottom: var(--spacing-small);
+}
+
+.overviewText {
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.infoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-color);
+}
+
+.infoList li {
+  margin-bottom: var(--spacing-small);
+}
+
+.infoList strong {
+  color: #000;
+}

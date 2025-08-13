@@ -52,14 +52,6 @@ export default function Axes({ xScale, yScale, w, h, padding }) {
                     );
                 })}
             </g>
-
-            {/* 軸線 */}
-            <g>
-                {/* X軸 */}
-                <line x1={padding} y1={h / 2} x2={w - padding} y2={h / 2} stroke={axisColor} strokeWidth={axisStrokeWidth} />
-                {/* Y軸 */}
-                <line x1={w / 2} y1={padding} x2={w / 2} y2={h - padding} stroke={axisColor} strokeWidth={axisStrokeWidth} />
-            </g>
         </g>
     );
 }
