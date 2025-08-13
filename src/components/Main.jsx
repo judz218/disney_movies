@@ -66,8 +66,6 @@ export default function Main() {
 		};
 	}, [selectedMovie]);
 
-
-	console.log("d", data);
 	return (
 		<div>
 			{/* フィルター設定UI */}
