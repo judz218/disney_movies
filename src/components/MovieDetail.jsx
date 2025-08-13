@@ -16,7 +16,7 @@ export default function MovieDetail({ movie, onClose, topRef }) {
     const posterSrc = isEnglishPoster ? movie.posterEn : movie.posterJa;
     const overview = movie.overviewJa == "" ? "情報なし" : movie.overviewJa;
 
-    const video = movie.video == "" ? "情報なし" : movie.video;
+    const video = movie.video;
 
     return (
         <div ref={topRef}
@@ -52,16 +52,19 @@ export default function MovieDetail({ movie, onClose, topRef }) {
             <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
 
                 {click ?
-                    <ReactPlayer
-                        src={movie.video}
-                        width="100%"
-                        height="100%"
-                        muted
-                        playsinline
-                        playing={true}
-                        loop={false}
-                        controls={true}
-                    /> :
+                    (video === "" ?
+                        <p>情報なし</p> :
+                        <ReactPlayer
+                            src={movie.video}
+                            width="100%"
+                            height="100%"
+                            muted
+                            playsinline
+                            playing={true}
+                            loop={false}
+                            controls={true}
+                        />)
+                    :
                     <img
                         src={posterSrc}
                         alt={movie.title}
@@ -89,7 +92,7 @@ export default function MovieDetail({ movie, onClose, topRef }) {
                         ポスターを{isEnglishPoster ? "日本語" : "英語"}に切り替え
                     </button>
                     <button
-                        onClick={() => setClick(true)}
+                        onClick={() => setClick(!click)}
                     >
                         動画
                     </button>
